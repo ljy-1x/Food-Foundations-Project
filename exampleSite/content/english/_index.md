@@ -11,9 +11,9 @@ banner:
 
 # Features
 features:
-  - title: "What's Included in Hugoplate"
+  - title: "Whole Foundations"
     image: "/images/service-1.png"
-    content: "Hugoplate is a comprehensive starter template that includes everything you need to get started with your Hugo project. What's Included in Hugoplate"
+    content: "The Food Foundations Project is committed to fostering a healthy relationship with nutrition and promoting explorative behaviors. By focusing on food exploration and hands-on literacy for kids, we help the next generation become adventurous, informed eaters."
     bulletpoints:
       - "10+ Pre-build pages"
       - "95+ Google Pagespeed Score"
