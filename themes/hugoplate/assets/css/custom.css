@@ -1,0 +1,10 @@
+/* DO NOT WRITE ANY STYLE IN THIS FILE */
+/* If you want to add your own styles, please write it in the `./assets/css/custom.css` file. */
+
+.testimonial-slider .swiper-wrapper {
+  align-items: stretch;
+}
+
+.testimonial-slider .swiper-slide {
+  display: flex;
+}

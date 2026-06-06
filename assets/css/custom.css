@@ -1,2 +1,40 @@
-/* DO NOT WRITE ANY STYLE IN THIS FILE */
-/* If you want to add your own styles, please write it in the `./assets/css/custom.css` file. */
+html {
+  scroll-behavior: smooth;
+}
+
+.home-image,
+.home-text {
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity 0.75s ease-out, transform 0.75s ease-out;
+  transition-delay: var(--home-delay, 0ms);
+  will-change: opacity, transform;
+}
+
+.home-image.visible,
+.home-text.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.marquee-bar {
+  @apply bg-primary text-white overflow-hidden;
+}
+
+.marquee-track {
+  display: flex;
+  width: max-content;
+  align-items: center;
+  flex-wrap: nowrap;
+  transform: translateX(0);
+  will-change: transform;
+}
+
+.marquee-group {
+  display: flex;
+  flex: 0 0 auto;
+}
+
+.marquee-item {
+  @apply inline-block px-6 py-2 uppercase tracking-[0.2em] text-sm font-semibold;
+}
