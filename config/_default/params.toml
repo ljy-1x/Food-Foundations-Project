@@ -6,8 +6,8 @@ logo = "images/logo.png"
 logo_darkmode = "images/logo-darkmode.png"
 # use `px` or `x` with logo_width, example: "100px".
 # Note: logo_width is not work with .svg file
-logo_width = "160px"
-logo_height = "32px"
+logo_width = "250px"
+logo_height = "64px"
 # if logo_webp set false, will not generate WEBP version of logo | default is true
 logo_webp = true
 # logo text will only show when logo is missing.
@@ -38,8 +38,8 @@ preloader = "" # use jpg, png, svg or gif format.
 # Navigation button
 [navigation_button]
 enable = true
-label = "Github"
-link = "https://github.com/zeon-studio/hugoplate"
+label = "Sign Your Child Up!"
+link = "https://docs.google.com/forms/d/e/1FAIpQLSdPELxfpIgNcjmS7ITTqc5WvUkFgGgRwHc11A1LMmjptQfUOw/viewform?pli=1"
 
 # LLMs Configuration
 # LLMs module: https://github.com/gethugothemes/hugo-modules/tree/master/llms-txt

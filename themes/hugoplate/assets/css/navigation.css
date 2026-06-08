@@ -7,6 +7,32 @@
   @apply relative flex flex-wrap items-center justify-between;
 }
 
+@media (min-width: 1024px) {
+  /* Use grid on large screens so the center nav isn't affected by logo size */
+  .navbar {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+  }
+
+  .navbar .navbar-brand {
+    grid-column: 1;
+  }
+
+  .navbar .navbar-nav {
+    grid-column: 2;
+    justify-self: center;
+    margin-left: 4rem; /* reset margin for center alignment */
+    display: flex; /* ensure horizontal layout */
+  }
+
+  /* right-side controls (search, theme switcher, buttons) should sit in the last column */
+  .navbar > .order-1 {
+    grid-column: 3;
+    justify-self: end;
+  }
+}
+
 .navbar-brand {
   @apply text-text-dark dark:text-darkmode-text-dark text-xl font-semibold;
   image {

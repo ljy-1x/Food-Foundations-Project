@@ -13,6 +13,13 @@
   <h4 class="mb-3">
     <a href="{{ .RelPermalink }}">{{ .Title }}</a>
   </h4>
+  {{ $position := .Params.position }}
+  {{ if $position }}
+    {{ $positionColor := .Params.position_color | default "" }}
+    <p class="mb-3 text-sm font-semibold uppercase tracking-[0.12em] text-text-light dark:text-darkmode-text-light"{{ if $positionColor }} style="color: {{ $positionColor }};"{{ end }}>
+      {{ $position }}
+    </p>
+  {{ end }}
   <p class="mb-4">
     {{ .Summary | plainify }}
   </p>
