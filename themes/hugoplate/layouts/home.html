@@ -3,8 +3,8 @@
   {{ with .Params.banner }}
     <section class="section pt-14">
       <div class="container">
-        <div class="row justify-center">
-          <div class="lg:col-8 md:col-9 mb-8 text-center">
+        <div class="home-text row justify-center">
+          <div class="lg:col-9 md:col-9 mb-8 text-center">
             <h1 class="mb-4 text-h3 lg:text-h1">
               {{ .title | markdownify }}
             </h1>
@@ -27,7 +27,7 @@
           </div>
           <div class="col-12">
             {{/* image modules comes from https://github.com/gethugothemes/hugo-modules/tree/master/images */}}
-            {{ partial "image" (dict "Src" .image "Alt" "Banner image" "Loading" "eager" "Class" "mx-auto lg:!max-w-[500px] home-image" "DisplayXL" "800x" ) }}
+            {{ partial "image" (dict "Src" .image "Alt" "Banner image" "Loading" "eager" "Class" "mx-auto lg:!max-w-[500px] home-image rounded-lg" "DisplayXL" "800x" ) }}
           </div>
         </div>
       </div>
@@ -97,23 +97,23 @@
 
   <!-- Features -->
   {{ range $i, $e:= .Params.features }}
-    <section class="section-sm {{ if (modBool $i 2) }}bg-gradient{{ end }}">
+    <section class="section-sm {{ if (and (not .background_color) (modBool $i 2)) }}bg-gradient{{ end }}"{{ with .background_color }} style="background-color: {{ . }};"{{ end }}>
       <div class="container">
         <div class="row items-center justify-between">
           <div
             class="mb:md-0 {{ if not (modBool $i 2) }}
               md:order-2
-            {{ end }} md:col-5 mb-6">
-            {{ partial "image" (dict "Src" .image "Alt" "feature image" "Class" "home-image" "DisplayXL" "520x" "DisplayLG" "425x" "DisplayMD" "360x") }}
+            {{ end }} md:col-4 mb-2">
+            {{ partial "image" (dict "Src" .image "Alt" "feature image" "Class" "shome-image rounded-lg" "DisplayXL" "520x" "DisplayLG" "425x" "DisplayMD" "360x") }}
           </div>
-          <div
+          <div {{ if not (modBool $i 2) }} data-slide-left {{ else }} data-slide-right {{ end }}
             class="{{ if not (modBool $i 2) }}
               md:order-1
-            {{ end }} md:col-7 lg:col-6">
-            <h2 class="mb-4">
+            {{ end }} md:col-7 lg:col-7">
+            <h2 class="mb-4 mt-3">
               {{ .title | markdownify }}
             </h2>
-            <p class="mb-8 text-lg">
+            <p class="mb-8 text-2xl">
               {{ .content | markdownify }}
             </p>
             <ul>
@@ -146,7 +146,7 @@
         <div class="container">
           <div class="row">
             <div class="md:col-10 lg:col-8 xl:col-6 mx-auto mb-12 text-center">
-              <h2 class="mb-4" font-size="h1">
+              <h2 class="home-text mb-4" font-size="h1">
                 {{ .Title | markdownify }}
               </h2>
               <p>
@@ -156,16 +156,16 @@
             <div class="col-12">
               <div class="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
                   {{ range .Params.testimonials }}
-                    <div class="h-full">
-                      <div class="h-full flex flex-col bg-light dark:bg-darkmode-light rounded-lg px-7 py-10">
+                    <div class="home-image h-full">
+                      <div class="h-full flex flex-col dark:bg-darkmode-light rounded-lg px-7 py-10" style="background-color: {{ .accent_color | default "#f8f9fa" }}; border-radius: {{ .border_radius | default "1.5rem" }};">
                         <div>
                           <div class="ml-4">
-                            <h3 class="h4 font-primary font-semibold">
+                            <h3 class="h4 font-primary font-semibold" style="color: {{ .name_color | default "#343a40" }};">
                               {{ .name }}
                             </h3>
                           </div>
                         </div>
-                        <blockquote class="mt-8 flex-grow">
+                        <blockquote class="mt-8 flex-grow" style="color: {{ .content_color | default "#495057" }};">
                           {{ .content | markdownify }}
                         </blockquote>
                         {{ with .button }}
@@ -173,7 +173,8 @@
                             <a
                               class="btn btn-primary mt-6 w-fit"
                               href="{{ .link | absURL }}"
-                              {{ if strings.HasPrefix .link `http` }} target="_blank" rel="noopener"{{ end }}>
+                              {{ if strings.HasPrefix .link `http` }} target="_blank" rel="noopener"{{ end }}
+                              style="background-color: {{ .button_color | default "#007bff" }}; border-color: {{ .button_color | default "#007bff" }}; color: {{ .button_text_color | default "#fff" }};">
                               {{ .label }}
                             </a>
                           {{ end }}
@@ -190,6 +191,50 @@
   {{ end }}
   <!-- /Testimonials -->
 
+  {{ range $i, $e:= .Params.more }}
+    <section class="section-sm {{ if (and (not .background_color) (modBool $i 2)) }}bg-gradient{{ end }}"{{ with .background_color }} style="background-color: {{ . }};"{{ end }}>
+      <div class="container">
+        <div class="row items-center justify-between">
+          <div
+            class="mb:md-0 {{ if not (modBool $i 2) }}
+              md:order-2
+            {{ end }} md:col-5 mb-6">
+            {{ partial "image" (dict "Src" .image "Alt" "feature image" "Class" "home-image rounded-lg" "DisplayXL" "520x" "DisplayLG" "425x" "DisplayMD" "360x") }}
+          </div>
+          <div {{ if not (modBool $i 2) }} data-slide-left {{ else }} data-slide-right {{ end }}
+            class="{{ if not (modBool $i 2) }}
+              md:order-1
+            {{ end }} md:col-7 lg:col-6">
+            <h2 class="mb-4">
+              {{ .title | markdownify }}
+            </h2>
+            <p class="mb-1 text-lg mb-3">
+              {{ .content | markdownify }}
+            </p>
+            <ul>
+              {{ range .bulletpoints }}
+                <li class="relative mb-4 pl-6">
+                  <i class="fa fa-check absolute left-0 top-1.5"></i>
+                  {{ . | markdownify }}
+                </li>
+              {{ end }}
+            </ul>
+            {{ with .button }}
+              {{ if .enable }}
+                <div class="flex justify-center">
+                  <a class="btn btn-primary mt-3" href="{{ .link | absURL }}">
+                    {{ .label }}
+                    <i class="fa fa-arrow-right pl-2"></i>
+                  </a>
+                </div>
+              {{ end }}
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </section>
+
+  {{ end }}
   <!-- Call to action -->
   {{ partial "call-to-action" . }}
   <!-- /Call to action -->

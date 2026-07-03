@@ -38,3 +38,45 @@ html {
 .marquee-item {
   @apply inline-block px-6 py-2 uppercase tracking-[0.2em] text-sm font-semibold;
 }
+
+[data-slide-left],
+[data-slide-right] {
+  opacity: 0;
+  transition: opacity 0.6s ease, transform 0.6s ease;
+  transition-delay: var(--home-delay, 0ms);
+}
+
+[data-slide-left] {
+  transform: translateX(-40px);
+}
+
+[data-slide-right] {
+  transform: translateX(40px);
+}
+
+[data-slide-left].visible,
+[data-slide-right].visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.week-row [data-slide-left],
+.week-row [data-slide-right] {
+  opacity: 0;
+  transition: opacity 0.6s ease, transform 0.6s ease;
+  transition-delay: var(--week-delay, 0ms);
+}
+
+.week-row [data-slide-left] {
+  transform: translateX(-40px);
+}
+
+.week-row [data-slide-right] {
+  transform: translateX(40px);
+}
+
+.week-row.visible [data-slide-left],
+.week-row.visible [data-slide-right] {
+  opacity: 1;
+  transform: translateX(0);
+}

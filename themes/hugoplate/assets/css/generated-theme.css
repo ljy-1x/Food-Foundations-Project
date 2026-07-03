@@ -7,7 +7,7 @@
 @theme {
   /* === Colors === */
   --color-primary: #70C963;
-  --color-body: #fff;
+  --color-body: #FFFFFF;
   --color-border: #ECF7DF;
   --color-light: #FCFCFC;
   --color-dark: #040404;
@@ -26,8 +26,8 @@
   --color-darkmode-text-light: #B4AFB6;
 
   /* === Font Families === */
-  --font-primary: Heebo, sans-serif;
-  --font-secondary: Signika, sans-serif;
+  --font-primary: Miranda Sans, sans-serif;
+  --font-secondary: Faculty Glyphic, sans-serif;
 
   /* === Font Sizes === */
   --text-base: 16px;

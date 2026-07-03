@@ -7,7 +7,7 @@ url = "/"
 weight = 1
 
 [[main]]
-name = "About Us"
+name = "About"
 url = "/about-us"
 weight = 2
 
@@ -22,16 +22,17 @@ url = "/blog"
 weight = 4
 
 [[main]]
+name = "Resources"
+url = "/resources"
+weight = 5
+
+[[main]]
 name = "Contact"
 url = "/contact"
-weight = 5
+weight = 6
 
 
 # footer menu
-[[footer]]
-name = "About"
-url = "/about"
-weight = 1
 
 [[footer]]
 name = "TOS"

@@ -1,0 +1,60 @@
+{{ define "main" }}
+  {{ partial "page-header" . }}
+  
+  <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const weekRows = document.querySelectorAll(".week-row");
+            if (!weekRows.length) return;
+
+            weekRows.forEach((row, i) => {
+                row.style.setProperty("--week-delay", `${i * 120}ms`);
+            });
+
+            const observer = new IntersectionObserver(
+                (entries, obs) => {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                    // trigger ALL rows when the first one is seen
+                    weekRows.forEach((row) => row.classList.add("visible"));
+                    obs.disconnect(); // stop observing entirely
+                    }
+                });
+                },
+                { threshold: 0.01, rootMargin: "0px 0px -10% 0px" }
+            );
+
+            // only observe the first row
+            observer.observe(weekRows[0]);
+        });
+    </script>
+    
+  {{ with site.GetPage "/resources/_index" }}
+    <section class="section">
+      <div class="container">
+        <div class="row">
+            {{ range .Params.resources }}
+            <div class="week-row">
+                <div class="bg-light dark:bg-darkmode-light rounded p-8 flex flex-col md:flex-row mb-4 justify-between" data-slide-right>
+                    <div>
+                        <h5 class="font-bold mb-4">{{ .name | markdownify }}</h5>
+                    </div>
+                    <div>
+                        {{ with .button }}
+                        {{ if .enable }}
+                            <a
+                            class="btn btn-primary mt-2"
+                            href="{{ .link | absURL }}"
+                            {{ if strings.HasPrefix .link `http` }} target="_blank" rel="noopener"{{ end }}
+                            style="background-color: {{ .button_color | default "#007bff" }}; border-color: {{ .button_color | default "#007bff" }}; color: {{ .button_text_color | default "#fff" }};">
+                            {{ .label }}
+                            </a>
+                        {{ end }}
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+      </div>
+    </section>
+  {{ end }}
+{{ end }}

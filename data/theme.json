@@ -3,7 +3,7 @@
     "default": {
       "theme_color": {
         "primary": "#70C963",
-        "body": "#fff",
+        "body": "#FFFFFF",
         "border": "#ECF7DF",
         "light": "#FCFCFC",
         "dark": "#040404"
@@ -31,9 +31,9 @@
   },
   "fonts": {
     "font_family": {
-      "primary": "Heebo:wght@400;600",
+      "primary": "Miranda Sans:wght@400;600",
       "primary_type": "sans-serif",
-      "secondary": "Signika:wght@500;700",
+      "secondary": "Faculty Glyphic:wght@400",
       "secondary_type": "sans-serif"
     },
     "font_size": {

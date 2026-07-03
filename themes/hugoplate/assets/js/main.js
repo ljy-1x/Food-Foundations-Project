@@ -4,21 +4,31 @@ document.addEventListener("DOMContentLoaded", function () {
   document.querySelectorAll("[data-scroll-bottom]").forEach((button) => {
     button.addEventListener("click", (event) => {
       event.preventDefault();
-      window.scrollTo({
-        top: document.documentElement.scrollHeight,
-        behavior: "smooth",
-      });
+      const target = document.querySelector("#bottom");
+      if (target) {
+        target.scrollIntoView({ behavior: "smooth", block: "start" });
+      } else {
+        window.scrollTo({
+          top: document.documentElement.scrollHeight,
+          behavior: "smooth",
+        });
+      }
     });
   });
 
-  const homeRevealItems = document.querySelectorAll(".home-image, .home-text");
+  const homeRevealItems = document.querySelectorAll(
+    ".home-image, .home-text, [data-slide-left], [data-slide-right]"
+  );
+
   if (homeRevealItems.length) {
     const revealItem = (item) => {
       if (item.classList.contains("visible")) return;
       const section = item.closest("section");
       if (section) {
         const sectionItems = Array.from(
-          section.querySelectorAll(".home-image, .home-text")
+          section.querySelectorAll(
+            ".home-image, .home-text, [data-slide-left], [data-slide-right]"
+          )
         );
         const order = sectionItems.indexOf(item);
         item.style.setProperty("--home-delay", `${order * 60}ms`);
@@ -43,5 +53,4 @@ document.addEventListener("DOMContentLoaded", function () {
       homeRevealItems.forEach(revealItem);
     }
   }
-
 });

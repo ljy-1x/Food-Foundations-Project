@@ -1,7 +1,7 @@
 ---
 title: Ahnaf Bhuiyan
 position: Co-Founder
-image: "/images/avatar.png"
+image: "/images/ahnaf.png"
 description: this is meta description
 weight: 2
 social:

@@ -1,7 +1,7 @@
 ---
 title: Saad Awal
 position: Chief Instructor
-image: "/images/avatar.png"
+image: "/images/saad.png"
 description: this is meta description
 weight: 3
 social:

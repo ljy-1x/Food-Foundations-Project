@@ -1,0 +1,138 @@
+{{ define "main" }}
+
+    {{ with site.GetPage "sections/curriculum_description"}}
+        {{ if .Params.enable }}
+        <section class="section-sm">
+            <div class="container">
+            <div class="row items-center justify-center">
+                <div class="md:col-12 lg:col-11">
+                <div class="flex flex-col md:flex-row items-center gap-8">
+                    <div class="home-text md:w-1/2">
+                    <h1 class="h3 mb-6">{{ .Title }}</h1>
+                    <div class="content">{{ .Content }}</div>
+                    </div>
+                    <div class="md:w-1/2" data-slide-right>
+                    {{ if .Params.image }}
+                        {{ partial "image" (dict "Src" .Params.image "Context" .Page "Alt" .Title "Class" "mx-auto rounded mb-6 max-h-[450px] w-auto") }}
+                    {{ end }}
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        {{ end }}
+    {{ end }}
+
+    {{ with site.GetPage "sections/curriculum" }}
+        {{ if .Params.enable }}
+        <section class="section">
+            <div class="container">
+            <div class="row">
+                <div class="md:col-10 lg:col-8 xl:col-6 mx-auto mb-12 text-center">
+                <h2 class="home-text mb-4" font-size="h1">
+                    {{ .Title | markdownify }}
+                </h2>
+                <p>
+                    {{ .Params.description | markdownify }}
+                </p>
+                </div>
+                <div class="col-12">
+                <div class="grid gap-6 md:grid-cols-2 xl:grid-cols-4">
+                    {{ range .Params.cards }}
+                        {{ $card := . }}
+                        <div class="home-image h-full">
+                        <div class="h-full flex flex-col dark:bg-darkmode-light rounded-lg px-7 py-10" style="background-color: {{ .accent_color | default "#f8f9fa" }}; border-radius: {{ .border_radius | default "1.5rem" }};">
+                            {{ with .avatar }}
+                                {{ partial "image" (dict "Src" . "Alt" $card.name "Class" "mx-auto mb-4 rounded-full !w-[70px] !h-auto !max-w-[70px] img") }}
+                            {{ end }}
+                            <div>
+                            <div class="ml-4">
+                                <h3 class="h4 font-primary font-semibold" style="color: {{ .name_color | default "#343a40" }};">
+                                {{ .name }}
+                                </h3>
+                            </div>
+                            </div>
+                            <blockquote class="mt-8 flex-grow" style="color: {{ .content_color | default "#495057" }};">
+                            {{ .content | markdownify }}
+                            </blockquote>
+                            {{ with .button }}
+                            {{ if .enable }}
+                                <a
+                                class="btn btn-primary mt-6 w-fit"
+                                href="{{ .link | absURL }}"
+                                {{ if strings.HasPrefix .link `http` }} target="_blank" rel="noopener"{{ end }}
+                                style="background-color: {{ .button_color | default "#007bff" }}; border-color: {{ .button_color | default "#007bff" }}; color: {{ .button_text_color | default "#fff" }};">
+                                {{ .label }}
+                                </a>
+                            {{ end }}
+                            {{ end }}
+                        </div>
+                        </div>
+                    {{ end }}
+                </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        {{ end }}
+    {{ end }}
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const weekRows = document.querySelectorAll(".week-row");
+            if (!weekRows.length) return;
+
+            weekRows.forEach((row, i) => {
+                row.style.setProperty("--week-delay", `${i * 120}ms`);
+            });
+
+            const observer = new IntersectionObserver(
+                (entries, obs) => {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                    // trigger ALL rows when the first one is seen
+                    weekRows.forEach((row) => row.classList.add("visible"));
+                    obs.disconnect(); // stop observing entirely
+                    }
+                });
+                },
+                { threshold: 0.01, rootMargin: "0px 0px -10% 0px" }
+            );
+
+            // only observe the first row
+            observer.observe(weekRows[0]);
+        });
+    </script>
+
+    {{ with site.GetPage "sections/curriculum_weeks" }}
+        {{ if .Params.enable }}
+            <section class="section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 mx-auto">
+                            <h1 class="home-text font-secondary font-bold mb-10">
+                                {{ .Title | markdownify }}
+                            </h1>
+                            {{ range $i, $week := .Params.weeks }}
+                                <div class="week-row border-t border-gray-200 py-8 flex flex-col md:flex-row gap-6">
+                                    <div class="md:w-1/3">
+                                        <p class="font-secondary font-bold text-xl" data-slide-left>
+                                            {{ $week.name }}
+                                        </p>
+                                    </div>
+                                    <div class="font-secondary md:w-2/3 text-gray-500" data-slide-right>
+                                        {{ with $week.description }}
+                                            {{ . | markdownify }}
+                                        {{ end }}
+                                    </div>
+                                </div>
+                            {{ end }}
+                        </div>
+                    </div>
+                </div>
+            </section>
+        {{ end }}
+    {{ end }}
+
+{{ end }}
