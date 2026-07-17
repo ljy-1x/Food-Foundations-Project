@@ -29,14 +29,14 @@ features:
       link: "https://github.com/zeon-studio/hugoplate"
 
 more:
-  - title: "Volunteering"
+  - title: "Sign Your Child Up!"
     background_color: "#E8EDF3"
-    image: "/images/example-lesson.jpeg"
-    content: "Click the button below and join our community of food explorers. Whether you're a parent looking to bring nutritional literacy home or a volunteer ready to help us grow, every bit of support helps us build a healthier future for children together. Let's make food exploration an adventure!"
+    image: "/images/Students_at_SchoolLunch.png"
+    content: "This form is for parents/guardians interested in having their child participate in Food Foundations, a student-led pilot program focused on helping children build healthier eating habits in a positive, age-appropriate, low-pressure day. The program is centered on nutrition habits, trying new foods (explorative behavior), and creating a more balanced relationship with eating. Filling out this form helps us learn a little about your child and follow up about possible participation."
     button:
       enable: true
-      label: "Sign Up to Volunteer!"
-      link: "https://docs.google.com/forms/u/4/d/e/1FAIpQLSefmSBbHNWqA4QRWSkPmdLVldpNkIH0z4-xvWzgbOjS035XoQ/viewform?usp=publish-editor"
+      label: "Click Here!"
+      link: "https://docs.google.com/forms/d/e/1FAIpQLSdPELxfpIgNcjmS7ITTqc5WvUkFgGgRwHc11A1LMmjptQfUOw/viewform?pli=1"
   
   - title: "For Organizations"
     background_color: "#FFFFFF"
@@ -52,4 +52,13 @@ more:
       enable: true
       label: "Request a Free Workshop!"
       link: "https://docs.google.com/forms/d/1ajT7dG3m0VOb9fVWeE8DAl7i8pEzcdqpbonmYU77hJQ/edit"
+
+  - title: "Volunteering"
+    background_color: "#fcedf3"
+    image: "/images/example-lesson.jpeg"
+    content: "Click the button below and join our community of food explorers. Whether you're a parent looking to bring nutritional literacy home or a volunteer ready to help us grow, every bit of support helps us build a healthier future for children together. Let's make food exploration an adventure!"
+    button:
+      enable: true
+      label: "Sign Up to Volunteer!"
+      link: "https://docs.google.com/forms/u/4/d/e/1FAIpQLSefmSBbHNWqA4QRWSkPmdLVldpNkIH0z4-xvWzgbOjS035XoQ/viewform?usp=publish-editor"
 ---

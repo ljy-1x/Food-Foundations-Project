@@ -38,13 +38,7 @@
     var darkMode = localStorage.getItem("theme") === "dark";
 
     if (localStorage.getItem("theme") === null) {
-      darkMode = {{if eq site.Params.theme_default "dark"}}true{{else}}false{{end}};
-
-      {{ if eq site.Params.theme_default "system" }}
-      if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-        darkMode = true;
-      }
-      {{ end }}
+      darkMode = false;
     }
 
     if (darkMode) {
