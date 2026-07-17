@@ -1,0 +1,104 @@
+{{ define "main" }}
+
+    {{ with site.GetPage "sections/family_community_engagement"}}
+        {{ if .Params.enable }}
+        <section class="section-sm pt-1 mt-0">
+            <div class="container">
+            <div class="row items-center justify-center">
+                <div class="md:col-12 lg:col-11">
+                <div class="flex flex-col md:flex-row justify-center gap-8">
+                    <div class="home-text text-center md:w-4/5">
+                        <h1 class="h1 mb-6">{{ .Title }}</h1>
+                        <div class="content">{{ .Content }}</div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+            <div class="container">
+            <div class="row">
+                <div class="md:col-10 lg:col-8 xl:col-6 mx-auto mb-12 text-center">
+                </div>
+                <div class="col-12">
+                <div class="grid gap-6 md:grid-cols-3">
+                    {{ range .Params.cards }}
+                        {{ $card := . }}
+                        <div class="home-image h-full">
+                        <div class="h-full flex flex-col dark:bg-darkmode-light rounded-lg px-7 py-10" style="background-color: {{ .accent_color | default "#f8f9fa" }}; border-radius: {{ .border_radius | default "1.5rem" }};">
+                            {{ with .avatar }}
+                                {{ partial "image" (dict "Src" . "Alt" $card.name "Class" "mx-auto mb-4 rounded-full !w-[70px] !h-auto !max-w-[70px] img") }}
+                            {{ end }}
+                            <div>
+                            <div class="ml-4">
+                                <h3 class="h4 font-primary font-semibold" style="color: {{ .name_color | default "#3D1B19" }};">
+                                {{ .name }}
+                                </h3>
+                            </div>
+                            </div>
+                            <blockquote class="mt-8 flex-grow" style="color: {{ .content_color | default "#3D1B19" }};">
+                            {{ .content | markdownify }}
+                            </blockquote>
+                            {{ with .button }}
+                            {{ if .enable }}
+                                <a
+                                class="btn btn-primary mt-6 w-fit"
+                                href="{{ .link | absURL }}"
+                                {{ if strings.HasPrefix .link `http` }} target="_blank" rel="noopener"{{ end }}
+                                style="background-color: {{ .button_color | default "#007bff" }}; border-color: {{ .button_color | default "#007bff" }}; color: {{ .button_text_color | default "#fff" }};">
+                                {{ .label }}
+                                </a>
+                            {{ end }}
+                            {{ end }}
+                        </div>
+                        </div>
+                    {{ end }}
+                </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        {{ range $i, $e:= .Params.features }}
+            <section class="section-sm mb-2">
+            <div class="container">
+                <div class="row items-center justify-between">
+                <div
+                    class="home-image mb:md-0 {{ if not (modBool $i 2) }}
+                    md:order-2
+                    {{ end }} md:col-4 mb-2">
+                    {{ partial "image" (dict "Src" .image "Alt" "feature image" "Class" "shome-image rounded-lg" "DisplayXL" "520x" "DisplayLG" "425x" "DisplayMD" "360x") }}
+                </div>
+                <div {{ if not (modBool $i 2) }} data-slide-left {{ else }} data-slide-right {{ end }}
+                    class="{{ if not (modBool $i 2) }}
+                    md:order-1
+                    {{ end }} md:col-7 lg:col-7" style="background-color: {{ .background_color | default "#f8f9fa" }}; border-radius: {{ .border_radius | default "1.5rem" }}; padding: 2rem;">
+                    <h3 class="mb-4 mt-3" style="color:#302615">
+                    {{ .title | markdownify }}
+                    </h3>
+                    <p class="mb-8 text-2xl" style="color:#302615">
+                    {{ .content | markdownify }}
+                    </p>
+                    <ul>
+                    {{ range .bulletpoints }}
+                        <li class="relative mb-4 pl-6">
+                        <i class="fa fa-check absolute left-0 top-1.5"></i>
+                        {{ . | markdownify }}
+                        </li>
+                    {{ end }}
+                    </ul>
+                    {{ with .button }}
+                    {{ if .enable }}
+                        <a class="btn btn-primary mt-6" href="{{ .link | absURL }}">
+                        {{ .label }}
+                        <i class="fa fa-arrow-right pl-2"></i>
+                        </a>
+                    {{ end }}
+                    {{ end }}
+                </div>
+                </div>
+            </div>
+            </section>
+        {{ end }}
+        {{ end }}
+    {{ end }}
+{{ end }}

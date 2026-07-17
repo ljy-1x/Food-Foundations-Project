@@ -2,8 +2,8 @@
 title: "Protein Intake for the Gym: How Much Do You Really Need?"
 meta_title: "Protein Intake for the Gym: How Much Protein Do You Need?"
 description: "Learn how much protein you need to build muscle, improve recovery, and maximize gym performance. Discover daily protein recommendations, timing, and the best protein sources."
-date: 2022-04-04T05:00:00Z
-image: "/images/image-placeholder.png"
+date: 2026-06-04T05:00:00Z
+image: "/images/AdobeStock_195060440.png"
 categories: ["Bodybuilding"]
 author: "Ahnaf Bhuyiyan"
 tags: ["Nutrition"]

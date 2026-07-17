@@ -3,6 +3,7 @@ title: Ahnaf Bhuiyan
 position: Co-Founder
 image: "/images/ahnaf.png"
 description: this is meta description
+background_color: "#FFF456"
 weight: 2
 social:
   - name: instagram

@@ -7,6 +7,8 @@
   @apply py-16 xl:py-20;
 }
 
+
+
 /* container */
 .container {
   @apply mx-auto xl:!max-w-[1320px] px-4;

@@ -1,7 +1,7 @@
 ---
 title: "Hey, I am John Doe!"
-meta_title: "About"
-description: "this is meta description"
+meta_title: "About Food Foundations Project | Our Mission & Team"
+description: "Learn how Food Foundations Project teaches kids healthy relationships with food through hands-on lessons and community programs. Meet our team and support our mission — Find Out Today."
 image: "/images/image-placeholder.png"
 layout: "about"
 draft: false

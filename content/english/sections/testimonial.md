@@ -12,11 +12,10 @@ testimonials:
     button:
       enable: true
       label: "Learn more"
-      link: "/nutrtitional-literacy"
+      link: "/nutritional-literacy"
       button_color: "#5C4218"
 
   - name: "Food Exploration"
-    designation: "Web Designer"
     avatar: "/images/avatar-sm.png"
     content: "Having a diverse diet is important regarding both childhood and adult life, which is why we encourage students to try new foods, build curiosity, and develop a positive relationship with healthy eating. "
     name_color: "#132B12"
@@ -29,7 +28,6 @@ testimonials:
       button_color: "#1D3123"
 
   - name: "Family & Community Engagement"
-    designation: "Web Designer"
     avatar: "/images/avatar-sm.png"
     content: "We provide resources, guidance, and opportunities for families and volunteers to support healthy habits at home and stay involved through interactive lessons and social media."
     name_color: "#2B2317"
