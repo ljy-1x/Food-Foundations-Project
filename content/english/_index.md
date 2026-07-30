@@ -84,5 +84,6 @@ more:
       enable: true
       label: Sign Up to Volunteer!
       link: https://docs.google.com/forms/u/4/d/e/1FAIpQLSefmSBbHNWqA4QRWSkPmdLVldpNkIH0z4-xvWzgbOjS035XoQ/viewform?usp=publish-editor
+draft: true
 ---
 ​
