@@ -5,7 +5,7 @@ banner:
   content: Fostering healthy relationships with food for K-8 students through
     discovery and play.
   image: /images/lunch.jpg
-meta_title: "Nourishing Young Minds Programs | Food Foundations Project"
+meta_title: "Food Foundations Project"
 description: "Hands-on nutritional literacy and food exploration programs for
   K–8 students. Explore our curriculum, volunteer opportunities, and free
   workshops — Learn More today."
@@ -26,9 +26,11 @@ features:
   - title: Our Mission
     background_color: "#E5F2E7"
     image: /images/veg.png
-    content: We are dedicated to helping children to the best of our ability with
-      nutritional literacy. Through our instruction, we encourage kids to lead
-      healthier lives and to try new things.
+    content: >
+      Food Foundations started with getting one kid to eat cauliflower for the
+      first time. Now we run workshops for students and parents across the city.
+      We want to give children clear, age-appropriate information about
+      nutrition and encourage them to try new things without pressure.
     button:
       enable: false
       label: Get Started Now
@@ -38,13 +40,13 @@ more:
   - title: Sign Your Child Up!
     background_color: "#E8EDF3"
     image: /images/Students_at_SchoolLunch.png
-    content: This form is for parents/guardians interested in having their child
-      participate in Food Foundations, a student-led pilot program focused on
-      helping children build healthier eating habits in a positive,
-      age-appropriate, low-pressure day. The program is centered on nutrition
-      habits, trying new foods (explorative behavior), and creating a more
-      balanced relationship with eating. Filling out this form helps us learn a
-      little about your child and follow up about possible participation.
+    content: >
+      This form is for parents and guardians interested in Food Foundations, our
+      student-led pilot program for children. The program offers positive,
+      age-appropriate, low-pressure support with nutrition habits, trying
+      unfamiliar foods, and developing a more balanced relationship with eating.
+      Your answers help us learn a little about your child and contact you about
+      possible participation.
     button:
       enable: true
       label: Click Here!
@@ -52,11 +54,11 @@ more:
   - title: For Organizations
     background_color: "#FFFFFF"
     image: /images/chop.png
-    content: Whether you're a school, library, community center, afterschool
-      program, summer camp, youth sports program, or another type of
-      organization, we'd love the opportunity to work with you! ​ We are
-      committed to offering free, interactive food literacy and healthy habits
-      workshops for youth programs.
+    content: >
+      We offer free, interactive workshops on food literacy and healthy habits
+      to schools, libraries, community centers, afterschool programs, summer
+      camps, youth sports programs, and other organizations serving young
+      people. We’d be glad to discuss what would work for your group.
     bulletpoints:
       - For children k-8.
       - Workshops are educational only and do not provide medical advice.
@@ -73,11 +75,11 @@ more:
   - title: Volunteering
     background_color: "#fcedf3"
     image: /images/example-lesson.jpeg
-    content: Click the button below and join our community of food explorers.
-      Whether you're a parent looking to bring nutritional literacy home or a
-      volunteer ready to help us grow, every bit of support helps us build a
-      healthier future for children together. Let's make food exploration an
-      adventure!
+    content: >
+      If you’d like to support our work, tell us a little about yourself using
+      the form below. Whether you’re a parent using these ideas at home or
+      someone interested in volunteering, your support helps us continue the
+      project.
     button:
       enable: true
       label: Sign Up to Volunteer!
