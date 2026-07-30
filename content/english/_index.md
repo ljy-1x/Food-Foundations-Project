@@ -2,8 +2,8 @@
 # Banner
 banner:
   title: Nourishing Young Minds
-  content: Fostering healthy relationships with food for K-8 students through
-    discovery and play.
+  content: We help K–8 students understand nutrition and explore food through
+    clear lessons and hands-on activities.
   image: /images/lunch.mov
 meta_title: "Food Foundations Project"
 description: "Hands-on nutritional literacy and food exploration programs for
