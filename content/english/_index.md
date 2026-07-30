@@ -25,7 +25,7 @@ features:
       link: "#"
   - title: Our Mission
     background_color: "#E5F2E7"
-    image: /images/veg.png
+    image: /images/IMG_7388.png
     content: >
       Food Foundations started with getting one kid to eat cauliflower for the
       first time. Now we run workshops for students and parents across the city.
