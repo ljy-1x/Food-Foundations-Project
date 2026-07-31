@@ -1,7 +1,7 @@
 ---
-title: "Bronx Children's Museum; Workshop #1"
+title: "Bronx Children's Museum #1"
 meta_title: ""
-description: "Bronx Children's Museum; Workshop #1"
+description: "Bronx Children's Museum #1"
 date: 2026-07-18T20:00:00.000Z
 image: "/images/IMG_7409.png"
 categories:
