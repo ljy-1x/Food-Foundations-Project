@@ -93,8 +93,6 @@ Sensitive identification, fingerprinting, background-check, or medical records s
 
 A website host or related service provider may automatically process technical information when someone visits the website. This may include an IP address, browser type, device type, operating system, approximate location, pages viewed, access times, referring page, security logs, and essential cookie information.
 
-​
-
 The current website at foodfoundationsproject.org is custom coded, its source code is maintained through GitHub, and it is deployed and hosted through Vercel.
 
 Food Foundations previously used a Wix website while the current .org website was being developed. Wix is not the current host of foodfoundationsproject.org.
@@ -104,8 +102,6 @@ Food Foundations previously used a Wix website while the current .org website wa
 The website may use cookies or similar tools needed to load pages, protect the site, process forms, or remember basic settings.
 
 Food Foundations does not currently use analytics tools to track website visitors.
-
-​
 
 Food Foundations does not knowingly use advertising, behavioral-tracking, or analytics cookies. Vercel and other infrastructure providers may still process basic technical information needed to deliver, secure, and maintain the website.
 
@@ -202,8 +198,6 @@ We may keep a limited do-not-contact record so that we can honor an opt-out requ
 
 Food Foundations does not currently operate a public newsletter or mailing-list signup.
 
-​
-
 ## **How information may be shared**
 
 Food Foundations may share limited information with people or organizations that need it for an authorized purpose. These may include:
@@ -230,8 +224,6 @@ Food Foundations uses or has used Google Forms, Google Sheets, Google Drive, and
 
 These services may process information to provide forms, storage, email, security, collaboration, and related technical functions. Their own terms and privacy policies apply to their handling of information.
 
-​
-
 The current website at foodfoundationsproject.org is custom coded, its source code is maintained through GitHub, and it is deployed and hosted through Vercel.
 
 ## **Sale of information, advertising, payments, and accounts**
@@ -242,10 +234,6 @@ Food Foundations does not use children’s personal information for targeted adv
 
 The website does not currently accept donations or payments, allow visitors to create user accounts, or use advertising networks.
 
-​
-
-​
-
 The policy should be updated before any of those features are introduced.
 
 ## **Data retention**
@@ -255,8 +243,6 @@ Food Foundations keeps information for as long as reasonably needed to respond t
 Different records may be kept for different periods based on their purpose and the requirements of the host organization.
 
 We seek to delete or de-identify information that is no longer reasonably needed.
-
-​
 
 Food Foundations keeps personal information only for as long as it is reasonably needed for the purpose for which it was collected. General inquiries and inactive partnership requests may be retained for up to 24 months after the last communication, while routine workshop scheduling records may be retained for up to 12 months after the related program. Child-specific allergy, dietary, accessibility, and safety information should generally be deleted or de-identified within 90 days after the program ends, unless an incident, partner requirement, or legal obligation requires longer retention. Volunteer applications, résumés, references, and training records may be kept while the person is active and for up to 24 months afterward. Consent, attendance, incident, and partner records may be kept for the period required by the responsible host organization or applicable agreement. Opt-out records may be retained as long as needed to honor the request, and duplicate, test, outdated, or unnecessary information is deleted when identified.
 
@@ -300,13 +286,13 @@ The updated policy will show a revised “Last updated” date. Material changes
 Questions and privacy requests may be sent to:
 
 **Food Foundations Project**\
-&#x20;**Email:** thefoodfoundationsproject\@gmail.com\
+&#x20;**Email:** <thefoodfoundationsproject@gmail.com>\
  
 
 # **Terms of Use**
 
-**Effective date:** \[INSERT EFFECTIVE DATE]\
-&#x20;**Last updated:** \[INSERT LAST UPDATED DATE]
+**Effective date:** July 21, 2026\
+**Last updated:** July 21, 2026
 
 These Terms of Use apply to the Food Foundations Project website, public forms, educational materials, and other online resources that link to these terms.
 
@@ -477,10 +463,6 @@ The current website at foodfoundationsproject.org is custom coded, its source co
 
 The website does not currently accept donations or payments or allow visitors to create user accounts.
 
-​
-
-​
-
 These terms should be updated before any of those features are introduced.
 
 ## **Website availability and accuracy**
@@ -528,4 +510,4 @@ The updated version will show a revised “Last updated” date and will apply t
 Questions about these Terms of Use may be sent to:
 
 **Food Foundations Project**\
-**Email:** thefoodfoundationsproject\@gmail.com
+**Email:** <thefoodfoundationsproject@gmail.com>​
