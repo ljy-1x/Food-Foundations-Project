@@ -1,27 +1,26 @@
 ---
-enable: true
+enable: false
 title: "How we Teach Nutritional Literacy"
 
 build:
-  render: "never"
+  render: never
 
 cards:
-  - name: "Food Groups"
-    content: "Exploring the colorful variety of produce, grains, and proteins that build a strong foundation for every meal."
+  - name: Food Groups
+    content: Students look at the variety of fruits, vegetables, grains, and
+      proteins and learn how different foods can fit into a meal.
     accent_color: "#FDF0E6"
-
-  - name: "Essential Nutrients"
-    content: "Understanding the vitamins and minerals that help children grow, play, and concentrate in the classroom."
+  - name: Essential Nutrients
+    content: Students learn how vitamins and minerals support growth, energy, and
+      concentration.
     accent_color: "#FDF0E6"
-
-  - name: "Balanced Meals"
-    content: "Learning the art of creating a balanced plate that provides steady energy and supports total wellness."
+  - name: Balanced Meals
+    content: Students practice putting together a balanced plate that can provide
+      steady energy.
     accent_color: "#FDF0E6"
-
-  - name: "Reading Labels"
+  - name: Reading Labels
     accent_color: "#FDF0E6"
-    content: "Decoding nutritional facts of food packaging to make informed choices for a smarter pantry and lunchbox."
-
+    content: Students learn how to read nutrition facts and other information on
+      food packaging so they can make informed choices.
 ---
-
-Our curriculum is designed to make nutrition clear and fun for K–8 students. Through our lessons, whether they're virtual or in-person, we explore how healthy choices fuel our bodies and minds for a lifetime of adventure.
+Our curriculum introduces nutrition in clear, age-appropriate terms for K–8 students. In virtual and in-person lessons, students learn how food supports daily life and practice making informed choices without treating eating as a test.
