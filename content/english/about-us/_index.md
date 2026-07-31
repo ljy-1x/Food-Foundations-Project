@@ -1,7 +1,5 @@
 ---
-title: "About
-  Us                                                                                                                                                                                                        \
-  Founded by Bronx Science Students"
+title: "About Us"
 meta_title: "About Us — Food Foundations Project | Our Mission"
 description: "Founded by NYC students, Food Foundations Project promotes
   nutritional literacy for children K–8 through hands-on workshops and community
