@@ -3,7 +3,7 @@ title: "Bronx Children's Museum #1"
 meta_title: ""
 description: "Bronx Children's Museum #1"
 date: 2026-07-18T20:00:00.000Z
-image: "/images/IMG_7409.png"
+image: "/images/IMG_7410.png"
 categories:
   - Workshops; Bronx Children's Museum
 author: "Zev Valdina"
