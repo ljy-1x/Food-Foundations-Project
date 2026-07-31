@@ -1,5 +1,5 @@
 ---
-enable: false
+enable: true
 title: "How we Teach Nutritional Literacy"
 
 build:
