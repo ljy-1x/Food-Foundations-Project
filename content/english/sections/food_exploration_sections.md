@@ -20,7 +20,6 @@ cards:
       familiar with new foods and practice trying new things when they’re ready.
     accent_color: "#daf2d5"
 ---
+During food exploration, children don’t have to clear the plate or take a bite. They have time to notice what a food looks, feels, and smells like. This can make unfamiliar foods feel less stressful and more approachable.
 
-Food exploration isn't about finishing the plate; it's about the excitement of what’s on it. We create a sensory-rich environment where kids are free to look, touch, and smell without the expectation of eating. This low-pressure approach transforms the dinner table from a place of stress into a playground of discovery.
-
-By removing the 'must-try' mandate, we empower children to lead their own journey of textures and flavors. Over time, this autonomy builds profound self-confidence and a mindset that embraces new experiences, fostering a positive relationship with healthy eating that lasts a lifetime.
+When children can decide whether and how to explore a food, they can move at their own pace. Repeated, low-pressure exposure may help them become more comfortable with unfamiliar textures and flavors and develop a more positive relationship with eating.
