@@ -1,5 +1,5 @@
 ---
-title: Zev Valdina
+title: Zev Valdina - Bronx Science Student
 position: Founder
 image: "/images/zev.png"
 description: this is meta description
