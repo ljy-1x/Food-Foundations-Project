@@ -39,7 +39,7 @@ features:
 more:
   - title: Sign Your Child Up!
     background_color: "#E8EDF3"
-    image: /images/Students_at_SchoolLunch.png
+    image: /images/IMG_7483.jpeg
     content: >
       This form is for parents and guardians interested in Food Foundations, our
       student-led pilot program for children. The program offers positive,
