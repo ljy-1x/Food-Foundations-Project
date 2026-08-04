@@ -3,7 +3,8 @@ title: "How to Build Huge Biceps"
 meta_title: ""
 description: "this is meta description"
 date: 2026-04-04T05:00:00.000Z
-image: "/images/Screenshot 2026-08-04 190039.png"
+image: "/images/fitness-man-is-sitting-in-a-gym-and-flexing-muscles-royalty-fre\
+  e-image-1694520015.png"
 categories:
   - Bodybuilding
 author: "Zev Valdina"
