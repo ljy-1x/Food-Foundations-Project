@@ -5,7 +5,7 @@ description: "Pineapple Ride: Nutrition Activity at Bensonhurst Park"
 date: 2026-08-01T15:00:00.000Z
 image: "/images/IMG_7481.jpeg"
 categories:
-  - "Workshops: outdoor"
+  - Workshops; outdoor
 author: "Zev Valdina"
 tags:
   - Workshop
