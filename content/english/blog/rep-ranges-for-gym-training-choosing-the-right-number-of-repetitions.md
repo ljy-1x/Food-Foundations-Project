@@ -6,7 +6,7 @@ description: "Learn how different rep ranges affect strength, muscle growth,
   endurance, and power. Discover the best repetition ranges for your fitness
   goals and how to structure your workouts for maximum results."
 date: 2026-07-17T01:06:00.000Z
-image: "/images/Screenshot 2026-08-04 185635.png"
+image: "/images/Screenshot 2026-08-04 185635_copy(1).png"
 categories:
   - bodybuilding
 author: "Aaron Li"
