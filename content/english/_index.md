@@ -15,7 +15,8 @@ features:
   - title: Wholesome Foundations
     background_color: "#FFFFFF"
     image: /images/strawberry.png
-    content: Food Foundations Project helps children understand basic nutrition and
+    content:
+      Food Foundations Project helps children understand basic nutrition and
       feel more comfortable exploring food. Our lessons use straightforward
       explanations and hands-on activities so students can build knowledge and
       curiosity at their own pace.
@@ -86,4 +87,5 @@ more:
       link: https://docs.google.com/forms/u/4/d/e/1FAIpQLSefmSBbHNWqA4QRWSkPmdLVldpNkIH0z4-xvWzgbOjS035XoQ/viewform?usp=publish-editor
 draft: false
 ---
+
 ​

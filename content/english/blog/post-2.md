@@ -12,6 +12,7 @@ tags:
   - Arms
 draft: false
 ---
+
 # Building Bigger Biceps Without Overcomplicating It
 
 Biceps training is simple enough to survive the internet. The biceps brachii has two heads and helps bend the elbow and turn the palm upward, an action called supination. The brachialis and brachioradialis also bend the elbow, so no curl isolates one muscle while its neighbors take the set off.

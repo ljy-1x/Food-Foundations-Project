@@ -14,6 +14,7 @@ tags:
   - programming
 draft: false
 ---
+
 # How Many Reps Should You Do? The Boring (But True) Answer
 
 Gym advice often treats repetition ranges like separate lanes: low reps for strength, moderate reps for muscle, and high reps for endurance. That chart is easy to remember. It is also too neat.

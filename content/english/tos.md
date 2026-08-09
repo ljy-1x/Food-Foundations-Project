@@ -1,6 +1,7 @@
 ---
 title: "Terms of Service"
 ---
+
 # **Terms of Use**
 
 **Effective date:** July 21, 2026\
@@ -50,14 +51,14 @@ Participation may depend on registration, parent or guardian permission, host ap
 
 When a workshop is hosted by a school, museum, community center, or other organization, that organization may remain responsible for:
 
-* Official attendance and participant rosters
-* Parent or guardian consent
-* Supervision
-* Emergency contacts and procedures
-* Allergy and health records
-* Behavior policies
-* Accessibility procedures
-* Venue and food-service rules
+- Official attendance and participant rosters
+- Parent or guardian consent
+- Supervision
+- Emergency contacts and procedures
+- Allergy and health records
+- Behavior policies
+- Accessibility procedures
+- Venue and food-service rules
 
 Food Foundations facilitators provide educational instruction. They do not provide independent childcare.
 
@@ -147,13 +148,13 @@ Copyright, attribution, trademark, and ownership notices must remain in place.
 
 Without written permission, a person may not:
 
-* Sell or commercially license Food Foundations materials
-* Claim authorship of the materials
-* Remove attribution or ownership notices
-* Use Food Foundations branding to imply an unauthorized relationship
-* Use the Food Foundations name or logo in a misleading way
-* Copy substantial material into a commercial product
-* Alter materials to make misleading medical, nutrition, or safety claims
+- Sell or commercially license Food Foundations materials
+- Claim authorship of the materials
+- Remove attribution or ownership notices
+- Use Food Foundations branding to imply an unauthorized relationship
+- Use the Food Foundations name or logo in a misleading way
+- Copy substantial material into a commercial product
+- Alter materials to make misleading medical, nutrition, or safety claims
 
 ## **Prohibited conduct**
 

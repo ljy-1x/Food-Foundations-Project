@@ -10,4 +10,4 @@ social:
     link: https://www.instagram.com/dietcoke_18/
 ---
 
-Hello, my name is Saad, and I am the Chief Instructor of the Food Foundations Project. In my free time, I enjoy working out, spending time with friends, and drawing.  I have personally experienced the effects of unhealthy eating habits, and those experiences inspired me to create this initiative. My goal is to help other children develop healthier habits and avoid the challenges I once faced. I look forward to connecting with everyone!
+Hello, my name is Saad, and I am the Chief Instructor of the Food Foundations Project. In my free time, I enjoy working out, spending time with friends, and drawing. I have personally experienced the effects of unhealthy eating habits, and those experiences inspired me to create this initiative. My goal is to help other children develop healthier habits and avoid the challenges I once faced. I look forward to connecting with everyone!

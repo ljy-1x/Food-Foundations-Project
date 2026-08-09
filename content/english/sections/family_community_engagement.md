@@ -12,12 +12,14 @@ cards:
       and manageable.
     accent_color: "#F9EBEA"
   - name: Shared Routines
-    content: We suggest simple routines families can use to explore unfamiliar foods
+    content:
+      We suggest simple routines families can use to explore unfamiliar foods
       together. Regular practice at home can help children feel more comfortable
       over time.
     accent_color: "#F9EBEA"
   - name: Supportive Tools
-    content: Our resources include guided checklists and practical ideas caregivers
+    content:
+      Our resources include guided checklists and practical ideas caregivers
       can use to support a child’s curiosity and confidence around food.
     accent_color: "#F9EBEA"
 

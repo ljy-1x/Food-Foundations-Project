@@ -29,5 +29,8 @@
     "prettier-plugin-tailwindcss": "^0.7.2",
     "tailwind-bootstrap-grid": "^7.0.0",
     "tailwindcss": "^4.3.0"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
   }
 }

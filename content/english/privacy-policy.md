@@ -1,6 +1,7 @@
 ---
 title: "Privacy Policy"
 ---
+
 **Effective date:** July 21, 2026\
 **Last updated:** July 21, 2026
 
@@ -14,13 +15,13 @@ Food Foundations is not a medical provider, healthcare provider, registered diet
 
 This policy applies to information collected through:
 
-* The Food Foundations website
-* Website forms
-* Google Forms used by Food Foundations
-* Email and other direct communications
-* Workshop registration and consent processes
-* Volunteer and partnership inquiries
-* Program records maintained through Google Drive, Google Sheets, Gmail, or similar services
+- The Food Foundations website
+- Website forms
+- Google Forms used by Food Foundations
+- Email and other direct communications
+- Workshop registration and consent processes
+- Volunteer and partnership inquiries
+- Program records maintained through Google Drive, Google Sheets, Gmail, or similar services
 
 This policy does not govern records collected and controlled independently by a school, museum, community center, social-media platform, website provider, or other third party. Those organizations may have their own privacy policies and responsibilities.
 
@@ -42,16 +43,16 @@ This information may come through a website form, email, telephone call, social-
 
 A school, museum, community center, or other partner may provide information needed to plan a workshop. This may include:
 
-* Organization and staff contact information
-* Proposed dates, times, and locations
-* Student ages or grade levels
-* Estimated attendance
-* Staffing and supervision arrangements
-* Workshop preferences
-* Accessibility needs
-* Food and venue policies
-* Allergy or dietary information
-* Other information required by the host organization
+- Organization and staff contact information
+- Proposed dates, times, and locations
+- Student ages or grade levels
+- Estimated attendance
+- Staffing and supervision arrangements
+- Workshop preferences
+- Accessibility needs
+- Food and venue policies
+- Allergy or dietary information
+- Other information required by the host organization
 
 We ask partners to provide only the information reasonably needed to organize and run the program. They should not send us full medical records or unrelated sensitive information about children.
 
@@ -59,15 +60,15 @@ We ask partners to provide only the information reasonably needed to organize an
 
 When Food Foundations directly manages registration or consent, a parent, guardian, or other authorized adult may provide:
 
-* Their name and contact information
-* A child’s first name
-* A child’s age or age range
-* Scheduling information
-* Permission to participate
-* Relevant allergy or dietary information
-* Relevant accessibility or safety information
-* Media-consent choices
-* Attendance or participation information
+- Their name and contact information
+- A child’s first name
+- A child’s age or age range
+- Scheduling information
+- Permission to participate
+- Relevant allergy or dietary information
+- Relevant accessibility or safety information
+- Media-consent choices
+- Attendance or participation information
 
 When a school or partner manages registration, Food Foundations may receive only limited program information rather than a full participant roster.
 
@@ -75,17 +76,17 @@ When a school or partner manages registration, Food Foundations may receive only
 
 A volunteer inquiry or application may include:
 
-* Name
-* Contact information
-* Age or age range
-* School or organization
-* Availability
-* Relevant experience
-* Areas of interest
-* Résumé
-* References
-* Training or certification information
-* Information required by a partner for site access or clearance
+- Name
+- Contact information
+- Age or age range
+- School or organization
+- Availability
+- Relevant experience
+- Areas of interest
+- Résumé
+- References
+- Training or certification information
+- Information required by a partner for site access or clearance
 
 Sensitive identification, fingerprinting, background-check, or medical records should not be submitted through a general website form unless Food Foundations or the responsible partner has specifically approved that method.
 
@@ -111,21 +112,21 @@ We do not use children’s personal information for behavioral advertising or ta
 
 Food Foundations may use information to:
 
-* Respond to questions and requests
-* Arrange calls, meetings, workshops, and volunteer activities
-* Confirm registration and scheduling
-* Prepare age-appropriate lessons and materials
-* Address allergies, dietary restrictions, accessibility needs, and safety concerns
-* Coordinate with parents, schools, museums, community centers, and other partners
-* Maintain appropriate consent, participation, and program records
-* Manage volunteers
-* Meet venue or partner requirements
-* Send requested information and program updates
-* Conduct partnership and workshop outreach
-* Protect participants, volunteers, partners, and our systems
-* Investigate safety or conduct concerns
-* Evaluate programs using aggregate or de-identified information
-* Meet legal, administrative, or contractual requirements
+- Respond to questions and requests
+- Arrange calls, meetings, workshops, and volunteer activities
+- Confirm registration and scheduling
+- Prepare age-appropriate lessons and materials
+- Address allergies, dietary restrictions, accessibility needs, and safety concerns
+- Coordinate with parents, schools, museums, community centers, and other partners
+- Maintain appropriate consent, participation, and program records
+- Manage volunteers
+- Meet venue or partner requirements
+- Send requested information and program updates
+- Conduct partnership and workshop outreach
+- Protect participants, volunteers, partners, and our systems
+- Investigate safety or conduct concerns
+- Evaluate programs using aggregate or de-identified information
+- Meet legal, administrative, or contractual requirements
 
 Allergy, dietary, health, or accessibility information is used only for program planning and safety. It is not used to diagnose or treat a medical condition.
 
@@ -137,10 +138,10 @@ Children under 13 should not independently submit personal information through t
 
 Information about a child should be provided by:
 
-* A parent or legal guardian
-* An adult authorized by the parent or guardian
-* A school or program acting through an appropriate authorization or agreement
-* Another responsible partner organization
+- A parent or legal guardian
+- An adult authorized by the parent or guardian
+- A school or program acting through an appropriate authorization or agreement
+- Another responsible partner organization
 
 When Food Foundations directly manages registration, we seek parent or guardian involvement before a child participates.
 
@@ -202,17 +203,17 @@ Food Foundations does not currently operate a public newsletter or mailing-list 
 
 Food Foundations may share limited information with people or organizations that need it for an authorized purpose. These may include:
 
-* Food Foundations team members
-* Parents and guardians
-* Schools
-* Museums
-* Community centers
-* Other host organizations
-* Approved volunteers
-* Website, email, form, storage, scheduling, and security providers
-* Professional advisers
-* Government or legal authorities when required or reasonably necessary
-* Emergency personnel when needed to respond to an immediate safety concern
+- Food Foundations team members
+- Parents and guardians
+- Schools
+- Museums
+- Community centers
+- Other host organizations
+- Approved volunteers
+- Website, email, form, storage, scheduling, and security providers
+- Professional advisers
+- Government or legal authorities when required or reasonably necessary
+- Emergency personnel when needed to respond to an immediate safety concern
 
 We seek to share only the information needed for the relevant task.
 
@@ -256,12 +257,12 @@ No method of storage or transmission is completely secure. Food Foundations cann
 
 A parent, guardian, participant, volunteer, or other individual may contact Food Foundations to request that we:
 
-* Explain what information we maintain about them
-* Provide access to information about them or their child
-* Correct inaccurate information
-* Delete information that is no longer needed
-* Withdraw optional media permission
-* Stop nonessential communications
+- Explain what information we maintain about them
+- Provide access to information about them or their child
+- Correct inaccurate information
+- Delete information that is no longer needed
+- Withdraw optional media permission
+- Stop nonessential communications
 
 We may need to verify the requester’s identity, their authority to act for a child, and their relationship to the record.
 
@@ -338,14 +339,14 @@ Participation may depend on registration, parent or guardian permission, host ap
 
 When a workshop is hosted by a school, museum, community center, or other organization, that organization may remain responsible for:
 
-* Official attendance and participant rosters
-* Parent or guardian consent
-* Supervision
-* Emergency contacts and procedures
-* Allergy and health records
-* Behavior policies
-* Accessibility procedures
-* Venue and food-service rules
+- Official attendance and participant rosters
+- Parent or guardian consent
+- Supervision
+- Emergency contacts and procedures
+- Allergy and health records
+- Behavior policies
+- Accessibility procedures
+- Venue and food-service rules
 
 Food Foundations facilitators provide educational instruction. They do not provide independent childcare.
 
@@ -435,13 +436,13 @@ Copyright, attribution, trademark, and ownership notices must remain in place.
 
 Without written permission, a person may not:
 
-* Sell or commercially license Food Foundations materials
-* Claim authorship of the materials
-* Remove attribution or ownership notices
-* Use Food Foundations branding to imply an unauthorized relationship
-* Use the Food Foundations name or logo in a misleading way
-* Copy substantial material into a commercial product
-* Alter materials to make misleading medical, nutrition, or safety claims
+- Sell or commercially license Food Foundations materials
+- Claim authorship of the materials
+- Remove attribution or ownership notices
+- Use Food Foundations branding to imply an unauthorized relationship
+- Use the Food Foundations name or logo in a misleading way
+- Copy substantial material into a commercial product
+- Alter materials to make misleading medical, nutrition, or safety claims
 
 ## **Prohibited conduct**
 

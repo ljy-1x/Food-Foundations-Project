@@ -28,5 +28,4 @@ weeks:
 
   - name: "Week 8 – Real-Life Habits: Sleep, Balance & Goal Setting"
     description: "Turning knowledge into lasting daily habits for a healthy life."
-
 ---

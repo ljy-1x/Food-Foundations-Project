@@ -1,4 +1,5 @@
 <!-- Copilot instructions for Hugoplate-based Food Foundations Project -->
+
 # Copilot: Project Guidance
 
 Purpose: quick, actionable instructions to help AI coding agents be productive in this Hugo + Tailwind (Hugoplate) repository.

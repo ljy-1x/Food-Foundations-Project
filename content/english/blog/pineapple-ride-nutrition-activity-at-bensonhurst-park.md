@@ -11,6 +11,7 @@ tags:
   - Workshop
 draft: false
 ---
+
 # Pineapple Ride: Nutrition Activity at Bensonhurst Park
 
 Food Foundations joined the Pineapple Ride community event at Bensonhurst Park for a short nutrition activity designed for families and people passing through the event. Instead of asking participants to join a scheduled lesson, we set up a table where they could stop for a few minutes and work through one or more activities.

@@ -11,6 +11,7 @@ tags:
   - Workshop
 draft: false
 ---
+
 # Bronx Children’s Museum: Workshop #1
 
 On July 18, 2026, Food Foundations joined the Bronx Children’s Museum for a nutrition workshop connected to the museum’s food-themed programming. Children and caregivers used plastic food models to sort foods, examine mixed dishes, and put together meals or snacks. The group also discussed why the foods available to a family depend on more than nutrition knowledge or personal preference.
