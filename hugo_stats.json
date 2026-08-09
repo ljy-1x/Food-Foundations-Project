@@ -155,7 +155,6 @@
       "justify-between",
       "justify-center",
       "left-0",
-      "lg:!max-w-[500px]",
       "lg:bg-green-200",
       "lg:block",
       "lg:col-10",
