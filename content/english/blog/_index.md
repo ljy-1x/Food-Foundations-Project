@@ -1,5 +1,11 @@
 ---
 title: "Blog Posts"
-meta_title: "Blog: Nutritional Literacy & Food Education | Food Foundations Project"
-description: "Read articles and practical tips on child nutrition, food exploration activities, and curriculum updates from Food Foundations Project. Stay informed and apply lessons at home — Read More."
+meta_title: "Food Literacy Blog | Nutrition Education, Food Exploration & Family Learning"
+description: "Explore practical articles on child nutrition, food exploration, family food habits, and workshop insights from Food Foundations Project."
+keywords:
+  - nutrition education for kids
+  - food exploration activities
+  - family food habits
+  - child nutrition resources
+  - healthy eating education
 ---

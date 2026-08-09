@@ -5,10 +5,14 @@ banner:
   content: We help K–8 students understand nutrition and explore food through
     clear lessons and hands-on activities.
   image: /images/lunch.jpg
-meta_title: "Food Foundations Project"
-description: "Hands-on nutritional literacy and food exploration programs for
-  K–8 students. Explore our curriculum, volunteer opportunities, and free
-  workshops — Learn More today."
+meta_title: "Food Foundations Project | Kids Nutrition Education & Food Literacy"
+description: "Learn how Food Foundations Project helps children build food literacy, explore new foods with confidence, and develop healthy habits through hands-on lessons, family activities, and free workshops."
+keywords:
+  - food literacy for kids
+  - nutrition education
+  - food exploration activities
+  - healthy habits for children
+  - family nutrition resources
 
 # Features
 features:

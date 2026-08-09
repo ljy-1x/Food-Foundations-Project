@@ -1,8 +1,11 @@
 ---
 title: "Family & Community Engagement"
 layout: "family-community-engagement"
-meta_title: "Family & Community Engagement Programs | Food Foundations Project"
-description: "See how Food Foundations Project keeps caregivers involved with
-  clear updates, shared routines, and practical tools for supporting children at
-  home."
+meta_title: "Family & Community Engagement for Food Literacy | Food Foundations Project"
+description: "Discover how Food Foundations Project helps families and communities support children’s food literacy, nutrition habits, and positive food experiences at home."
+keywords:
+  - family food literacy
+  - community nutrition education
+  - caregiver food education
+  - healthy habits at home
 ---

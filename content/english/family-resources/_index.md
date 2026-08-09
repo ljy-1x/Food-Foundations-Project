@@ -1,9 +1,13 @@
 ---
 title: "Resources"
 layout: "resources"
-meta_title: "Family Resources & Activities | Food Foundations Project"
-description: "Explore activities from USDA and Food Hero that families and
-  educators can use to learn about food at home or in the classroom."
+meta_title: "Family Nutrition Resources & Food Activities | Food Foundations Project"
+description: "Explore practical food activities, nutrition resources, and classroom-ready tools for families and educators supporting children’s food literacy."
+keywords:
+  - family nutrition resources
+  - kids food activities
+  - food education tools
+  - nutrition activities for families
 resources:
   - name: USDA Kids Food Critic Activity
     button:

@@ -1,7 +1,13 @@
 ---
 title: "Hey, I am John Doe!"
-meta_title: "About Food Foundations Project | Our Mission & Team"
-description: "Learn how Food Foundations Project teaches kids healthy relationships with food through hands-on lessons and community programs. Meet our team and support our mission — Find Out Today."
+meta_title: "About Food Foundations Project | Kids Food Literacy & Community Programs"
+description: "Meet the Food Foundations Project team and learn how our programs help children and families build practical food literacy, healthy habits, and positive relationships with food."
+keywords:
+  - food literacy programs
+  - nutrition education for children
+  - healthy food habits
+  - community food education
+  - food exploration for families
 image: "/images/image-placeholder.png"
 layout: "about"
 draft: false

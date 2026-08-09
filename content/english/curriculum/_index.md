@@ -1,7 +1,12 @@
 ---
 title: "Our Curriculum"
-meta_title: "Curriculum: K–8 Nutritional Lessons | Food Foundations Project"
-description: "Explore our evidence-based curriculum for K–8 students focused on food exploration, tasting activities, and healthy habits. Download materials or request a workshop — Learn More."
+meta_title: "K–8 Food Literacy Curriculum | Nutrition Lessons & Healthy Habits"
+description: "Explore Food Foundations Project’s evidence-based curriculum for K–8 learners, built around food exploration, tasting activities, and practical nutrition education."
+keywords:
+  - nutrition curriculum for kids
+  - food literacy lessons
+  - healthy habits curriculum
+  - K-8 nutrition education
 image: "/images/image-placeholder.png"
 layout: "curriculum"
 ---

@@ -1,7 +1,13 @@
 ---
 title: "Pineapple Ride: Nutrition Activity at Bensonhurst Park"
-meta_title: ""
-description: "Pineapple Ride: Nutrition Activity at Bensonhurst Park"
+meta_title: "Community Nutrition Activity at Bensonhurst Park | Food Literacy for Families"
+description: "Explore how Food Foundations adapted a short nutrition activity for a public event so families could learn about food groups, hydration, and snack-building in minutes."
+keywords:
+  - community nutrition activity
+  - family food literacy
+  - food groups for kids
+  - outdoor nutrition education
+  - public event learning
 date: 2026-08-01T15:00:00.000Z
 image: "/images/IMG_7481.jpeg"
 categories:

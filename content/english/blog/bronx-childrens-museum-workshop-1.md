@@ -1,7 +1,13 @@
 ---
 title: "Bronx Children's Museum #1"
-meta_title: ""
-description: "Bronx Children's Museum #1"
+meta_title: "Food Group Activities at the Bronx Children's Museum | Food Literacy Workshop"
+description: "See how a hands-on food group activity at the Bronx Children’s Museum helped children and caregivers explore nutrition through conversation, sorting, and meal-building."
+keywords:
+  - food literacy workshop
+  - kids nutrition activities
+  - food groups for children
+  - family nutrition education
+  - museum food education
 date: 2026-07-18T20:00:00.000Z
 image: "/images/IMG_7410.png"
 categories:
