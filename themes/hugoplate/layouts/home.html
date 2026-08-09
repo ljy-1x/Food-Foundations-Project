@@ -25,9 +25,15 @@
               {{ end }}
             {{ end }}
           </div>
-          <div class="col-12">
+          <div class="col-12 flex justify-center">
             {{/* image modules comes from https://github.com/gethugothemes/hugo-modules/tree/master/images */}}
-            {{ partial "image" (dict "Src" .image "Alt" "Banner image" "Loading" "eager" "Class" "mx-auto lg:!max-w-[500px] home-image rounded-lg" "DisplayXL" "800x" ) }}
+            <iframe
+              class="mx-auto block rounded-lg"
+              src="https://player.mux.com/7Z8gaIKRHR00v6MuHrZ9ZHya2UXFgoLO00EhVzv300H38M?metadata-video-title=ed416bd75db24fc491e0474be6803a17&video-title=ed416bd75db24fc491e0474be6803a17"
+              style="width: 75%; aspect-ratio: 16/9;"
+              allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;"
+              allowfullscreen
+            ></iframe>
           </div>
         </div>
       </div>
