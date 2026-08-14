@@ -1,5 +1,5 @@
 ---
-title: "FDA Citizen Petition: Total Caffeine Labeling for Dietary Supplements!"
+title: "FDA Citizen Petition: Total Caffeine Labeling for Dietary Supplements"
 meta_title: ""
 description: ""
 date: 2026-08-14T15:55:00.000Z
