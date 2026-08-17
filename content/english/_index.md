@@ -28,7 +28,7 @@ features:
       label: Get Started Now
       link: "#"
   - title: Our Mission
-    background_color: "#E5F2E7"
+    background_color: "#EBF5F0"
     image: /images/C57458FE-CE88-448C-8C02-D3CF8072D1C1.jpeg
     content: 
       Food Foundations started with getting one kid to eat cauliflower for the
@@ -77,7 +77,7 @@ more:
       label: Request a Free Workshop!
       link: https://docs.google.com/forms/d/1ajT7dG3m0VOb9fVWeE8DAl7i8pEzcdqpbonmYU77hJQ/edit
   - title: Volunteering
-    background_color: "#fcedf3"
+    background_color: "#E5F2E7"
     image: /images/example-lesson.jpeg
     content: >
       If you’d like to support our work, tell us a little about yourself using
