@@ -1,7 +1,9 @@
 ---
 title: "Pineapple Ride: Nutrition Activity at Bensonhurst Park"
 meta_title: "Community Nutrition Activity at Bensonhurst Park | Food Literacy for Families"
-description: "Explore how Food Foundations adapted a short nutrition activity for a public event so families could learn about food groups, hydration, and snack-building in minutes."
+description: "Explore how Food Foundations adapted a short nutrition activity
+  for a public event so families could learn about food groups, hydration, and
+  snack-building in minutes."
 keywords:
   - community nutrition activity
   - family food literacy
@@ -17,13 +19,13 @@ tags:
   - Workshop
 draft: false
 ---
-# Pineapple Ride: Nutrition Activity at Bensonhurst Park
+### Pineapple Ride: Nutrition Activity at Bensonhurst Park
 
 Food Foundations joined the Pineapple Ride community event at Bensonhurst Park for a short nutrition activity designed for families and people passing through the event. Instead of asking participants to join a scheduled lesson, we set up a table where they could stop for a few minutes and work through one or more activities.
 
 The table included printed activity cards, placemats, food and drink examples, and a Food Foundations flyer. No food was served. The activities focused on general food and nutrition literacy rather than personal dietary or medical advice.
 
-## A nutrition activity built for a walk-up setting
+##### A nutrition activity built for a walk-up setting
 
 A community event works differently from a classroom or a longer workshop. Families may be moving between tables, watching children, preparing for another activity, or simply stopping to see what is available.
 
@@ -31,7 +33,7 @@ For that reason, each part of the Food Foundations station was designed to work 
 
 We used visual examples and questions instead of a lecture. This gave participants something specific to examine or decide while allowing the conversation to remain brief.
 
-## Connecting foods to the body
+##### Connecting foods to the body
 
 One activity introduced the food groups and asked participants to consider how different foods support the body. Foods can provide carbohydrates, protein, fats, vitamins, minerals, and other components that the body uses in different ways.
 
@@ -39,7 +41,7 @@ The goal was not to give every food a single job or divide foods into strict cat
 
 The activity gave families a simple way to discuss what foods contain and why people need variety across their meals.
 
-## Comparing water and sports drinks
+##### Comparing water and sports drinks
 
 The drink activity used a scenario about playing outside. Participants considered whether water or a sports drink would make more sense in that situation and looked at the information provided with each option.
 
@@ -47,7 +49,7 @@ The question did not have to be answered by declaring one drink universally good
 
 Using a real bottle as a visual example made it possible to discuss the purpose of the drink and the circumstances in which someone might choose it. The bottle was part of the activity and was not served to participants.
 
-## Building a snack
+##### Building a snack
 
 Families could also use a set of food choices to put together a snack. The activity encouraged participants to think about combining foods from different groups and choosing something they would realistically eat.
 
@@ -55,7 +57,7 @@ There was no single correct snack. A person might combine fruit with yogurt, cra
 
 The purpose was to practice looking at how foods can fit together, not to produce a supposedly perfect combination.
 
-## Looking at a food label
+##### Looking at a food label
 
 The food-label challenge asked participants to examine a sample label and locate specific information. Depending on the prompt, this could include the serving size, an amount listed for a nutrient, or another part of the Nutrition Facts panel.
 
@@ -63,7 +65,7 @@ Food labels contain a large amount of information in a small space. A short chal
 
 The activity treated the label as a tool for answering practical questions. It was not used to rank the product or tell families what they should purchase.
 
-## Adapting the setup to the event
+##### Adapting the setup to the event
 
 Preparing for the Pineapple Ride required a more compact setup than a full Food Foundations workshop. We used one reusable set of printed cards and organized the materials so the table could be reset after each interaction.
 
@@ -71,7 +73,7 @@ Food Foundations handled its activity materials, setup, facilitation, and cleanu
 
 This format gave us a useful example of how a food-literacy activity can be adjusted for a larger event where participants have limited time and may arrive at different points.
 
-## After the activity
+##### After the activity
 
 The Pineapple Ride station covered several practical topics within a small table setup: food groups, the ways foods support the body, drink choices, snack building, and food labels.
 
