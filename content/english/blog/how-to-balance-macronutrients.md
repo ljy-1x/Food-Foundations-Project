@@ -6,7 +6,7 @@ description: "Learn how to balance macronutrients for weight management, muscle
   growth, energy, and overall health. Discover protein, carbohydrate, and fat
   targets, calorie calculations, meal-planning strategies, and practical
   examples."
-date: ""
+date: 2026-08-17T22:30:00.000Z
 image: "/images/images.jpeg"
 categories:
   - Nutrition
