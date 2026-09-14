@@ -1,7 +1,8 @@
 ---
 title: "FDA Citizen Petition: Total Caffeine Labeling for Dietary Supplements"
-meta_title: ""
-description: ""
+meta_title: "Food Foundations Files FDA Petition on Caffeine Labeling"
+description: "Food Foundations filed an FDA Citizen Petition asking for one
+  clear total caffeine amount per serving on dietary supplement labels."
 date: 2026-08-14T15:55:00.000Z
 image: "/images/Screenshot 2026-08-14 120309.png"
 categories:
