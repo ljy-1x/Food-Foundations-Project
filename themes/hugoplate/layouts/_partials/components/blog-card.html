@@ -5,11 +5,11 @@
     {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "!h-full !w-full block object-cover object-center") }}
   {{ end }}
   </div>
-  <h4 class="mb-3">
+  <p class="font-secondary text-2xl mb-3">
     <a href="{{ .RelPermalink }}">
       {{ .Title }}
     </a>
-  </h4>
+  </p>
   {{ $categories:= .Params.categories }}
   {{ if $categories }}
     <ul class="mb-4">
