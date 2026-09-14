@@ -18,8 +18,8 @@ keywords:
 features:
   - title: Wholesome Foundations
     background_color: "#FFFFFF"
-    image: /images/strawberry.png
-    content: Food Foundations Project helps children understand basic nutrition and
+    image: /images/Board Produce.jpg
+    content: The Food Foundations Project helps children understand basic nutrition and
       feel more comfortable exploring food. Our lessons use straightforward
       explanations and hands-on activities so students can build knowledge and
       curiosity at their own pace.
@@ -29,12 +29,12 @@ features:
       link: "#"
   - title: Our Mission
     background_color: "#EBF5F0"
-    image: /images/C57458FE-CE88-448C-8C02-D3CF8072D1C1.jpeg
+    image: /images/PS182_scene.jpg
     content: 
-      Food Foundations started with getting one kid to eat cauliflower for the
-      first time. Now we run workshops for students and parents across the city.
-      We want to give children clear, age-appropriate information about
-      nutrition and encourage them to try new things without pressure.
+      This project started with encouraging one child to eat cauliflower for the first time. 
+      Now we run workshops for students and parents across the city.
+      We aim to give children clear, age-appropriate information about
+      nutrition, encouraging them to try new things without pressure.
     button:
       enable: false
       label: Get Started Now
@@ -57,7 +57,7 @@ more:
       link: https://docs.google.com/forms/d/e/1FAIpQLSdPELxfpIgNcjmS7ITTqc5WvUkFgGgRwHc11A1LMmjptQfUOw/viewform?pli=1
   - title: For Organizations
     background_color: "#FFFFFF"
-    image: /images/chop.png
+    image: /images/guys_holding_poster-2.jpg
     content: >
       We offer free, interactive workshops on food literacy and healthy habits
       to schools, libraries, community centers, afterschool programs, summer

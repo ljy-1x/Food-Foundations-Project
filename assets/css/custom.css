@@ -2,13 +2,65 @@ html {
   scroll-behavior: smooth;
 }
 
+[data-parallax] {
+  transform: translate3d(0, var(--parallax-offset, 0px), 0);
+  will-change: transform;
+}
+
+@media (max-width: 767px) {
+  [data-parallax] {
+    transform: none;
+    will-change: auto;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [data-parallax] {
+    transform: none;
+    will-change: auto;
+  }
+}
+
+.home-button {
+  transition: transform 180ms ease;
+}
+
+.home-button:hover,
+.home-button:focus-visible {
+  transform: scale(1.04);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .home-button {
+    transition: none;
+  }
+
+  .home-button:hover,
+  .home-button:focus-visible {
+    transform: none;
+  }
+}
+
+.typing-active::after {
+  content: "|";
+  display: inline-block;
+  width: 0;
+  transform: translateX(0.08em);
+  overflow: visible;
+  animation: typing-caret 0.8s steps(1, end) infinite;
+}
+
+@keyframes typing-caret {
+  50% {
+    opacity: 0;
+  }
+}
+
 @media (max-width: 767px) {
   [class*="text-h"],
   h1, h2, h3, h4, h5, h6 {
     text-align: center;
-    font-size: 2.5em;
-    margin-top: 0.25em;
-    margin-bottom: 0.5em;
+    font-size: 2em
   }
 
   .home-image,

@@ -11,9 +11,9 @@
   --color-border: #ECF7DF;
   --color-light: #FCFCFC;
   --color-dark: #040404;
-  --color-text: #444444;
+  --color-text: #040404;
   --color-text-dark: #040404;
-  --color-text-light: #717171;
+  --color-text-light: #040404;
 
   /* === Darkmode Colors === */
   --color-darkmode-primary: #fff;

@@ -5,17 +5,17 @@
       <div class="container">
         <div class="home-text row justify-center">
           <div class="lg:col-9 md:col-9 mb-8 text-center">
-            <h1 class="mb-4 text-h3 lg:text-h1">
+            <h1 class="mb-4 text-h3 lg:text-h1" data-typing-effect>
               {{ .title | markdownify }}
             </h1>
             <p class="mb-8">
               {{ .content | markdownify }}
             </p>
-            <button type="button" data-scroll-bottom class="btn btn-primary">Learn More</button>
+            <button type="button" data-scroll-bottom class="btn btn-primary home-button">Learn More</button>
             {{ with .button }}
               {{ if .enable }}
                 <a
-                  class="btn btn-primary"
+                  class="btn btn-primary home-button"
                   href="{{ .link | absURL }}"
                   {{ if strings.HasPrefix .link `http` }}
                     target="_blank" rel="noopener"
@@ -110,13 +110,15 @@
             class="home-image mb:md-0 {{ if not (modBool $i 2) }}
               md:order-2
             {{ end }} md:col-4 mb-2">
-            {{ partial "image" (dict "Src" .image "Alt" "feature image" "Class" "shome-image rounded-lg" "DisplayXL" "520x" "DisplayLG" "425x" "DisplayMD" "360x") }}
+            <div data-parallax data-parallax-direction="{{ if modBool $i 2 }}down{{ else }}up{{ end }}" data-parallax-speed="0.12">
+              {{ partial "image" (dict "Src" .image "Alt" "feature image" "Class" "shome-image rounded-lg" "DisplaySM" "1040x") }}
+            </div>
           </div>
           <div {{ if not (modBool $i 2) }} data-slide-left {{ else }} data-slide-right {{ end }}
             class="{{ if not (modBool $i 2) }}
               md:order-1
             {{ end }} md:col-7 lg:col-7">
-            <h2 class="mb-4 mt-3">
+            <h2 class="mb-4 mt-3" data-typing-effect>
               {{ .title | markdownify }}
             </h2>
             <p class="mb-8 text-2xl">
@@ -132,7 +134,7 @@
             </ul>
             {{ with .button }}
               {{ if .enable }}
-                <a class="btn btn-primary mt-6" href="{{ .link | absURL }}">
+                <a class="btn btn-primary home-button mt-6" href="{{ .link | absURL }}">
                   {{ .label }}
                   <i class="fa fa-arrow-right pl-2"></i>
                 </a>
@@ -145,10 +147,72 @@
   {{ end }}
   <!-- /Features -->
 
+  {{ with site.GetPage "sections/stats"}}
+    {{ if .Params.enable }}
+      <section class="section pt-10 md:pt-20 pb-0 mt-10 mb-0" data-parallax data-parallax-direction="up" data-parallax-speed="0.08">
+        <div class="container">
+          <div class="row">
+            <div class="md:col-10 lg:col-8 xl:col-6 mx-auto mb-12 text-center">
+              <h2 class="mb-6 home-text" font-size="h1" data-parallax data-parallax-direction="down" data-parallax-speed="0.08">{{ .Title | markdownify }}</h2>
+            </div>
+          </div>
+          <div class="grid grid-cols-2 gap-6">
+            {{ range .Params.stats }}
+                {{ $stats := . }}
+                <div class="home-image h-full">
+                <div class="h-full flex flex-col dark:bg-darkmode-light rounded-lg px-7 py-10" style="background-color: {{ .accent_color | default "#f8f9fa" }}; border-radius: {{ .border_radius | default "1.5rem" }};">
+                    <p class="home-text grow text-center font-secondary text-base md:text-4xl" data-stat-counter style="color: {{ .content_color | default "#422D25" }};">
+                    {{ .content | markdownify }}
+                    </p>
+                    {{ with .button }}
+                    {{ if .enable }}
+                        <a
+                        class="btn btn-primary home-button mt-6 w-fit"
+                        href="{{ .link | absURL }}"
+                        {{ if strings.HasPrefix .link `http` }} target="_blank" rel="noopener"{{ end }}
+                        style="background-color: {{ .button_color | default "#007bff" }}; border-color: {{ .button_color | default "#007bff" }}; color: {{ .button_text_color | default "#fff" }};">
+                        {{ .label }}
+                        </a>
+                    {{ end }}
+                    {{ end }}
+                </div>
+                </div>
+            {{ end }}
+          </div>
+          <div class="md:col-10 lg:col-8 xl:col-6 mx-auto mb-12 text-center">
+              <p class="font-secondary mb-6 mt-15 text-base md:text-2xl home-text" data-parallax data-parallax-direction="up" data-parallax-speed="0.08">{{ .Params.orgtitle | markdownify }}</p>
+          </div>
+          <div class="grid grid-cols-2 gap-6">
+            {{ range .Params.orgs }}
+                {{ $orgs := . }}
+                <div class="home-image h-full">
+                <div class="pb-0 pt-0 h-full flex flex-col dark:bg-darkmode-light rounded-lg px-7 py-10" style="background-color: {{ .accent_color | default "transparent" }}; border-radius: {{ .border_radius | default "1.5rem" }};">
+                    {{ with .button }}
+                    {{ if .enable }}
+                      {{ $orgLabel := .label }}
+                        <a
+                        class="btn btn-primary home-button w-full md:w-1/2 self-center"
+                        href="{{ .link | absURL }}"
+                        {{ if strings.HasPrefix .link `http` }} target="_blank" rel="noopener"{{ end }}
+                        style="background-color: {{ .button_color | default "transparent" }}; border: none; color: {{ .button_text_color | default "#fff" }};">
+                        {{ partial "image" (dict "Src" .image "Alt" $orgLabel "Class" "mb-2 h-20 w-auto object-contain") }}
+                        {{ .label }}
+                        </a>
+                    {{ end }}
+                    {{ end }}
+                </div>
+                </div>
+            {{ end }}
+          </div>
+        </div>
+      </section>
+    {{ end }}
+  {{ end }}
+
   <!-- Testimonials -->
   {{ with site.GetPage "sections/testimonial" }}
     {{ if .Params.enable }}
-      <section class="section" id="bottom">
+      <section class="section pb-0 pt-15 md:pt-20 md:mb-30 mt-0" id="bottom">
         <div class="container">
           <div class="row">
             <div class="md:col-10 lg:col-8 xl:col-6 mx-auto mb-12 text-center">
@@ -171,13 +235,13 @@
                             </h3>
                           </div>
                         </div>
-                        <blockquote class="mt-8 flex-grow" style="color: {{ .content_color | default "#495057" }};">
+                        <blockquote class="mt-8 text-sm md:text-base flex-grow" style="color: {{ .content_color | default "#495057" }};">
                           {{ .content | markdownify }}
                         </blockquote>
                         {{ with .button }}
                           {{ if .enable }}
                             <a
-                              class="btn btn-primary mt-6 w-fit"
+                              class="btn btn-primary home-button mt-6 text-sm md:text-base self-center md:self-start w-fit"
                               href="{{ .link | absURL }}"
                               {{ if strings.HasPrefix .link `http` }} target="_blank" rel="noopener"{{ end }}
                               style="background-color: {{ .button_color | default "#007bff" }}; border-color: {{ .button_color | default "#007bff" }}; color: {{ .button_text_color | default "#fff" }};">
@@ -205,7 +269,9 @@
             class="mb:md-0 {{ if not (modBool $i 2) }}
               md:order-2
             {{ end }} md:col-5 mb-6">
-            {{ partial "image" (dict "Src" .image "Alt" "feature image" "Class" "home-image rounded-lg" "DisplayXL" "520x" "DisplayLG" "425x" "DisplayMD" "360x") }}
+            <div data-parallax data-parallax-direction="{{ if modBool $i 2 }}up{{ else }}down{{ end }}" data-parallax-speed="0.08">
+              {{ partial "image" (dict "Src" .image "Alt" "feature image" "Class" "home-image rounded-lg" "DisplaySM" "1040x") }}
+            </div>
           </div>
           <div {{ if not (modBool $i 2) }} data-slide-left {{ else }} data-slide-right {{ end }}
             class="{{ if not (modBool $i 2) }}
@@ -228,7 +294,7 @@
             {{ with .button }}
               {{ if .enable }}
                 <div class="flex justify-center">
-                  <a class="btn btn-primary mt-3" href="{{ .link | absURL }}">
+                  <a class="btn btn-primary home-button mt-3" href="{{ .link | absURL }}">
                     {{ .label }}
                     <i class="fa fa-arrow-right pl-2"></i>
                   </a>
