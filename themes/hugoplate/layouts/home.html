@@ -156,7 +156,7 @@
               <h2 class="mb-6 home-text" font-size="h1" data-parallax data-parallax-direction="down" data-parallax-speed="0.08">{{ .Title | markdownify }}</h2>
             </div>
           </div>
-          <div class="grid grid-cols-2 gap-6">
+          <div class="grid grid-cols-3 gap-6">
             {{ range .Params.stats }}
                 {{ $stats := . }}
                 <div class="home-image h-full">
@@ -182,7 +182,7 @@
           <div class="md:col-10 lg:col-8 xl:col-6 mx-auto mb-12 text-center">
               <p class="font-secondary mb-6 mt-15 text-base md:text-2xl home-text" data-parallax data-parallax-direction="up" data-parallax-speed="0.08">{{ .Params.orgtitle | markdownify }}</p>
           </div>
-          <div class="grid grid-cols-2 gap-6">
+          <div class="grid grid-cols-3 gap-6">
             {{ range .Params.orgs }}
                 {{ $orgs := . }}
                 <div class="home-image h-full">
