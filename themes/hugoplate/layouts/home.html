@@ -156,7 +156,7 @@
               <h2 class="mb-6 home-text" font-size="h1" data-parallax data-parallax-direction="down" data-parallax-speed="0.08">{{ .Title | markdownify }}</h2>
             </div>
           </div>
-          <div class="grid grid-cols-3 gap-6">
+          <div class="grid grid-cols-2 gap-6">
             {{ range .Params.stats }}
                 {{ $stats := . }}
                 <div class="home-image h-full">

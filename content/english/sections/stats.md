@@ -4,7 +4,7 @@ title: "Why Trust Us?"
 
 # Statistics
 stats:
-  - content: "100+ children reached through workshops"
+  - content: "160+ children reached through workshops and virtual lessons"
     accent_color: "#ECEFFE"
     content_color: "#1C2238"
     button:
@@ -12,17 +12,9 @@ stats:
       label: "Learn more"
       link: "/nutritional-literacy"
       button_color: "#5C4218"
-  - content: "60+ children reached through virtual lessons"
-    accent_color: "#FDF0E6"
-    content_color: "#3A251D"
-    button:
-      enable: false
-      label: "Learn more"
-      link: "/nutritional-literacy"
-      button_color: "#5C4218"
   - content: "10+ families registered for our curriculum"
-    accent_color: "#EAF4EE"
-    content_color: "#182E22"
+    accent_color: "#ECEFFE"
+    content_color: "#1C2238"
     button:
       enable: false
       label: "Learn more"
