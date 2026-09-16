@@ -4,7 +4,7 @@ title: "Why Trust Us?"
 
 # Statistics
 stats:
-  - content: "160+ children reached through workshops and virtual lessons"
+  - content: "160+ children reached across NYC through in-person workshops and virtual lessons"
     accent_color: "#ECEFFE"
     content_color: "#1C2238"
     button:
@@ -12,7 +12,7 @@ stats:
       label: "Learn more"
       link: "/nutritional-literacy"
       button_color: "#5C4218"
-  - content: "10+ families registered for our curriculum"
+  - content: "10+ families registered for our nutritional education and food literacy curriculum"
     accent_color: "#ECEFFE"
     content_color: "#1C2238"
     button:

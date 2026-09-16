@@ -5,7 +5,7 @@
       <div class="container">
         <div class="home-text row justify-center">
           <div class="lg:col-9 md:col-9 mb-8 text-center">
-            <h1 class="mb-4 text-h3 lg:text-h1" data-typing-effect>
+            <h1 class="mb-4 text-h1 lg:text-h1" data-typing-effect>
               {{ .title | markdownify }}
             </h1>
             <p class="mb-8">
@@ -111,7 +111,7 @@
               md:order-2
             {{ end }} md:col-4 mb-2">
             <div data-parallax data-parallax-direction="{{ if modBool $i 2 }}down{{ else }}up{{ end }}" data-parallax-speed="0.12">
-              {{ partial "image" (dict "Src" .image "Alt" "feature image" "Class" "shome-image rounded-lg" "DisplaySM" "1040x") }}
+              {{ partial "image" (dict "Src" .image "Alt" (.alt | default .title) "Class" "shome-image rounded-lg" "DisplaySM" "1040x") }}
             </div>
           </div>
           <div {{ if not (modBool $i 2) }} data-slide-left {{ else }} data-slide-right {{ end }}
@@ -270,7 +270,7 @@
               md:order-2
             {{ end }} md:col-5 mb-6">
             <div data-parallax data-parallax-direction="{{ if modBool $i 2 }}up{{ else }}down{{ end }}" data-parallax-speed="0.08">
-              {{ partial "image" (dict "Src" .image "Alt" "feature image" "Class" "home-image rounded-lg" "DisplaySM" "1040x") }}
+              {{ partial "image" (dict "Src" .image "Alt" (.alt | default .title) "Class" "home-image rounded-lg" "DisplaySM" "1040x") }}
             </div>
           </div>
           <div {{ if not (modBool $i 2) }} data-slide-left {{ else }} data-slide-right {{ end }}

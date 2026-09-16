@@ -25,6 +25,7 @@ features:
   - title: A Stronger Foundation
     background_color: "#f5bc67"
     image: /images/caring.png
+    alt: "Caregivers supporting children as they build healthy food habits"
     content: Children’s food habits don’t develop in a single lesson. We give
       caregivers a simple framework for continuing the conversation and
       practicing routines at home. Shared tools and opportunities to learn from
