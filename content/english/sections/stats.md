@@ -4,7 +4,7 @@ title: "Why Trust Us?"
 
 # Statistics
 stats:
-  - content: "160+ children reached across NYC through in-person workshops and virtual lessons"
+  - content: "170+ children reached across NYC through in-person workshops and virtual lessons"
     accent_color: "#ECEFFE"
     content_color: "#1C2238"
     button:
@@ -39,6 +39,11 @@ orgs:
       label: "Pineapple Ride"
       image: /images/pineapple-ride.png
       link: https://pineappleride.org/
+  - button:
+      enable: true
+      label: "Kingsbridge Heights Community Center"
+      image: /images/KHCC.png
+      link: https://www.khcc-nyc.org/
       
 
 # don't create a separate page

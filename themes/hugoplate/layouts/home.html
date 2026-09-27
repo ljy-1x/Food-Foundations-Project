@@ -182,16 +182,16 @@
           <div class="md:col-10 lg:col-8 xl:col-6 mx-auto mb-12 text-center">
               <p class="font-secondary mb-6 mt-15 text-base md:text-2xl home-text" data-parallax data-parallax-direction="up" data-parallax-speed="0.08">{{ .Params.orgtitle | markdownify }}</p>
           </div>
-          <div class="grid grid-cols-3 gap-6">
+          <div class="grid grid-cols-4 gap-6">
             {{ range .Params.orgs }}
                 {{ $orgs := . }}
                 <div class="home-image h-full">
-                <div class="pb-0 pt-0 h-full flex flex-col dark:bg-darkmode-light rounded-lg px-7 py-10" style="background-color: {{ .accent_color | default "transparent" }}; border-radius: {{ .border_radius | default "1.5rem" }};">
+                <div class="pb-0 pt-0 h-full flex flex-col dark:bg-darkmode-light rounded-lg px-0 py-10" style="background-color: {{ .accent_color | default "transparent" }}; border-radius: {{ .border_radius | default "1.5rem" }};">
                     {{ with .button }}
                     {{ if .enable }}
                       {{ $orgLabel := .label }}
                         <a
-                        class="btn btn-primary home-button w-full md:w-1/2 self-center"
+                        class="btn btn-primary home-button w-full md:w-full xl:w-1/2 self-center"
                         href="{{ .link | absURL }}"
                         {{ if strings.HasPrefix .link `http` }} target="_blank" rel="noopener"{{ end }}
                         style="background-color: {{ .button_color | default "transparent" }}; border: none; color: {{ .button_text_color | default "#fff" }};">
