@@ -30,7 +30,7 @@ features:
       link: "#"
   - title: Our Mission
     background_color: "#EBF5F0"
-    image: /images/PS182_scene.jpg
+    image: /images/DSC04730.jpg
     alt: "Students participating in a Food Foundations nutrition workshop"
     content: 
       This project started with encouraging one child to eat cauliflower for the first time. 

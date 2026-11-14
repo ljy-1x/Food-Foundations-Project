@@ -1,6 +1,6 @@
 ---
-title: "About Us"
-meta_title: "About Us — Food Foundations Project | Our Mission"
+title: "Meet the Team"
+meta_title: "Meet the Team — Food Foundations Project | Our Mission"
 description: "Founded by NYC students, Food Foundations Project promotes
   nutritional literacy for children K–8 through hands-on workshops and community
   programs. Learn how to get involved — Learn More."

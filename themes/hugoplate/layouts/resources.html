@@ -1,6 +1,5 @@
 {{ define "main" }}
   {{ partial "page-header" . }}
-  
   <script>
         document.addEventListener("DOMContentLoaded", function () {
             const weekRows = document.querySelectorAll(".week-row");
@@ -29,7 +28,7 @@
     </script>
     
   {{ with site.GetPage "/family-resources/_index" }}
-    <section class="section">
+    <section class="section pt-5">
       <div class="container">
         <div class="row">
             {{ range .Params.resources }}

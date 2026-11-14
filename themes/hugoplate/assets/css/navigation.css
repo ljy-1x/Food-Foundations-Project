@@ -7,7 +7,7 @@
   @apply relative flex flex-wrap items-center justify-between;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
   /* Use grid on large screens so the center nav isn't affected by logo size */
   .navbar {
     display: grid;
@@ -41,11 +41,43 @@
 }
 
 .navbar-nav {
-  @apply text-center lg:text-left;
+  @apply text-center xl:text-left;
 }
 
 .nav-link {
-  @apply text-text-dark hover:text-primary dark:text-darkmode-text-dark dark:hover:text-darkmode-primary block p-3 cursor-pointer font-semibold transition lg:px-2 lg:py-3;
+  @apply text-text-dark hover:text-primary dark:text-darkmode-text-dark dark:hover:text-darkmode-primary block p-3 cursor-pointer font-semibold transition xl:px-2 xl:py-3;
+  position: relative;
+}
+
+.nav-link-text {
+  position: relative;
+  display: inline-block;
+}
+
+.nav-link.active .nav-link-text::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: -0.35rem;
+  left: 0;
+  height: 2px;
+  background-color: var(--color-primary);
+  transform: scaleX(0);
+  transform-origin: center;
+  animation: nav-underline-expand 300ms ease-out forwards;
+}
+
+@keyframes nav-underline-expand {
+  to {
+    transform: scaleX(1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .nav-link.active .nav-link-text::after {
+    animation: none;
+    transform: scaleX(1);
+  }
 }
 
 .nav-dropdown {

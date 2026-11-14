@@ -2,13 +2,13 @@
 
     {{ with site.GetPage "sections/family_community_engagement"}}
         {{ if .Params.enable }}
-        <section class="section-sm pt-1 mt-0">
+        <section class="topic-page section-sm pt-12 mt-0">
             <div class="container">
             <div class="row items-center justify-center">
                 <div class="md:col-12 lg:col-11">
                 <div class="flex flex-col md:flex-row justify-center gap-8">
                     <div class="home-text text-center md:w-4/5">
-                        <h1 class="h1 mb-6">{{ .Title }}</h1>
+                        <h1 class="mb-6 text-3xl md:text-4xl">{{ .Title }}</h1>
                         <div class="content">{{ .Content }}</div>
                     </div>
                 </div>
@@ -24,13 +24,13 @@
                     {{ range .Params.cards }}
                         {{ $card := . }}
                         <div class="home-image h-full">
-                        <div class="h-full flex flex-col dark:bg-darkmode-light rounded-lg px-7 py-10" style="background-color: {{ .accent_color | default "#f8f9fa" }}; border-radius: {{ .border_radius | default "1.5rem" }};">
+                        <div class="h-full min-w-0 flex flex-col dark:bg-darkmode-light rounded-lg px-5 py-8 md:px-4 md:py-7 lg:px-7 lg:py-10" style="background-color: {{ .accent_color | default "#f8f9fa" }}; border-radius: {{ .border_radius | default "1.5rem" }};">
                             {{ with .avatar }}
                                 {{ partial "image" (dict "Src" . "Alt" $card.name "Class" "mx-auto mb-4 rounded-full !w-[70px] !h-auto !max-w-[70px] img") }}
                             {{ end }}
                             <div>
-                            <div class="ml-4">
-                                <h3 class="h4 font-primary font-semibold" style="color: {{ .name_color | default "#3D1B19" }};">
+                            <div class="min-w-0">
+                                <h3 class="break-words text-xl md:text-2xl font-primary font-semibold leading-tight" style="color: {{ .name_color | default "#3D1B19" }};">
                                 {{ .name }}
                                 </h3>
                             </div>
@@ -63,19 +63,22 @@
             <div class="container">
                 <div class="row items-center justify-between">
                 <div
-                    class="home-image mb:md-0 {{ if not (modBool $i 2) }}
+                    class="home-image min-w-0 {{ if not (modBool $i 2) }}
                     md:order-2
-                    {{ end }} md:col-4 mb-2">
-                    {{ partial "image" (dict "Src" .image "Alt" (.alt | default .title) "Class" "shome-image rounded-lg" "DisplayXL" "520x" "DisplayLG" "425x" "DisplayMD" "360x") }}
+                    lg:pr-4
+                    {{ else }}
+                    lg:pl-4
+                    {{ end }} md:col-5 mb-2">
+                    {{ partial "image" (dict "Src" .image "Alt" (.alt | default .title) "Class" "home-image w-full rounded-lg md:h-[320px] md:object-cover" "DisplayXL" "640x" "DisplayLG" "520x" "DisplayMD" "480x") }}
                 </div>
                 <div {{ if not (modBool $i 2) }} data-slide-left {{ else }} data-slide-right {{ end }}
                     class="{{ if not (modBool $i 2) }}
                     md:order-1
-                    {{ end }} md:col-7 lg:col-7" style="background-color: {{ .background_color | default "#f8f9fa" }}; border-radius: {{ .border_radius | default "1.5rem" }}; padding: 2rem;">
-                    <h3 class="mb-4 mt-3" style="color:#302615">
+                    {{ end }} min-w-0 md:col-7 lg:col-7" style="background-color: {{ .background_color | default "#f8f9fa" }}; border-radius: {{ .border_radius | default "1.5rem" }}; padding: 1.5rem;">
+                    <h3 class="mb-4 mt-3 text-2xl md:text-3xl leading-tight" style="color:#302615">
                     {{ .title | markdownify }}
                     </h3>
-                    <p class="mb-8 text-2xl" style="color:#302615">
+                    <p class="mb-8 text-base md:text-lg" style="color:#302615">
                     {{ .content | markdownify }}
                     </p>
                     <ul>

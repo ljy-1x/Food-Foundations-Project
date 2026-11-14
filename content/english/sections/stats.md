@@ -4,7 +4,7 @@ title: "Why Trust Us?"
 
 # Statistics
 stats:
-  - content: "170+ children reached across NYC through in-person workshops and virtual lessons"
+  - content: "200+ children reached across NYC through in-person workshops and virtual lessons"
     accent_color: "#ECEFFE"
     content_color: "#1C2238"
     button:
