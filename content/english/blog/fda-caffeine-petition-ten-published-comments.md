@@ -29,6 +29,6 @@ The firm pointed to another part of the package that can change what a reader ne
 
 ## What changed in October
 
-Our [August update](https://www.foodfoundationsproject.org/blog/fda-caffeine-petition-gains-early-momentum-7-comments-and-regulatory-coverage-in-three-weeks/) covered the first seven public comments. The FDA received Wong’s and Paasche-Orlow’s comments on September 30 and posted both on October 7. It received the law firm’s comment on October 9 and posted it on October 19, bringing the published count to ten.
+Our [August update](https://www.foodfoundationsproject.org/blog/fda-caffeine-petition-gains-early-momentum-7-comments-and-regulatory-coverage-in-three-weeks/) covered the first seven public comments. The FDA received Wong’s and Paasche-Orlow’s comments on September 30 and posted both on October 7. It received the law firm’s comment on October 9 and posted it on October 19, bringing the published count to ten. By November 20, the FDA had received 12 comments and posted 10, since it can take time for a comment to appear on the public docket.
 
 Families and partners can read the original request, the supporting material and each public comment in [docket FDA-2026-P-8648](https://www.regulations.gov/docket/FDA-2026-P-8648). The petition remains open. The October additions record what three commenters want the FDA to consider as it reviews the request.
